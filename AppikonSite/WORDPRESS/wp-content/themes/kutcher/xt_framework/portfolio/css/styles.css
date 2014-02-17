@@ -1,0 +1,518 @@
+/****************************
+	XT PORTFOLIO STYLES
+****************************/
+
+	/* Utils */
+
+	.xt-clear {
+		display: block;
+		clear: both;
+		float: none;
+	}
+
+	/* Filter Wrapper and Filters */
+
+	.xt-filters-wrapper {
+		margin-bottom: 20px;
+		margin-left: 1%;
+	}
+
+	.xt-filters-wrapper ul.xt-filters {
+		margin: 0;
+	}
+
+	.xt-filters-wrapper ul.xt-filters li {
+		display: inline-block;
+		margin: 0;
+		margin-right: 10px;	
+	}
+
+	.xt-filters-wrapper ul.xt-filters li:last-child {
+		margin-right: 0;
+	}
+
+	.xt-filters-wrapper ul.xt-filters li a, .xt-filters-wrapper ul.xt-filters li a:visited {
+		display: inline-block;
+		padding: 8px 15px;
+		text-decoration: none;
+	}
+
+	.xt-filters-wrapper ul.xt-filters li a:hover, .xt-filters-wrapper ul.xt-filters li a.current {
+		background: #aaa;
+		color: #fff;
+	}
+
+	/* Portfolio Items */
+
+	.xt-projects-wrapper {
+
+	}
+
+	/* Default Margins */
+
+	.xt-projects-wrapper .project-item {
+		margin: 0 1% 20px;
+	}
+
+	.xt-projects-wrapper .project-item.project-first {
+		/*margin-left: 0;*/
+	}
+
+	.xt-projects-wrapper .project-item.project-last {
+		/*margin-right: 0;*/
+	}
+
+	/* Project Item 2 Columns */
+
+	.xt-projects-wrapper .project-item-wrapper {
+		border: 1px solid #ddd;
+		border-radius: 3px;
+		-webkit-border-radius: 3px;
+
+		-webkit-box-shadow:  0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+		box-shadow:  0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+	}
+
+	/* Thumbnail */
+
+	.project-item .thumbnail {
+		position: relative;
+	}
+
+	.project-item .thumbnail img {
+		display: block;
+		border-radius: 3px 3px 0 0;
+		-webkit-border-radius: 3px 3px 0 0;
+
+		box-shadow: none;
+		-webkit-box-shadow: none;
+
+		max-width: 100%;
+		height: auto;
+	}
+
+	.project-item .thumbnail .xt-project-hover {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+
+		background: rgba(0, 0, 0, 0.3);
+		z-index: 444;
+		display: none;
+	}
+
+	.project-item .thumbnail .xt-project-hover span {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		text-align: center;
+		display: block;
+		width: 40px;
+		height: 40px;
+		margin-left: -20px;
+		margin-top: -20px;
+		line-height: 40px;
+		
+		background: transparent;
+		color: #fff;
+	}
+
+	.project-item .thumbnail .xt-project-hover span i {
+		font-size: 40px;
+	}
+
+	/* Infos */
+
+	.project-item .project-infos {
+		padding: 15px 0;
+	}
+
+	.project-item .project-infos h1 {
+		margin: 0 15px;
+		font-size: 16px;
+		line-height: 24px;
+
+	}
+
+	.project-item .project-infos h1 a, .project-item .project-infos h1 a:visited {
+		text-decoration: none;
+		color: #333;
+	}
+
+	.project-item .project-infos h1 a:hover {
+		
+	}
+
+	.project-item .project-infos .project-excerpt {
+		padding-top: 5px;
+		margin: 0 15px;
+	}
+
+	.project-item .project-infos .project-excerpt p {
+		margin: 0;
+	}
+
+	/* Layout Columns */
+
+	.xt-projects-wrapper .project-item.project-two {
+		width: 47.9%;
+		/*
+		float: left;
+		*/
+	}
+
+	.xt-projects-wrapper .project-item.project-three {
+		width: 31.2%;
+	}
+
+	.xt-projects-wrapper .project-item.project-four {
+		width: 22.95%;
+	}
+
+	/* Isotope Animation Code */
+
+	/**** Isotope Filtering ****/
+
+	.isotope-item {
+	  z-index: 2;
+	}
+
+	.isotope-hidden.isotope-item {
+	  pointer-events: none;
+	  z-index: 1;
+	}
+
+	/**** Isotope CSS3 transitions ****/
+
+	.isotope,
+	.isotope .isotope-item {
+	  -webkit-transition-duration: 0.8s;
+	     -moz-transition-duration: 0.8s;
+	      -ms-transition-duration: 0.8s;
+	       -o-transition-duration: 0.8s;
+	          transition-duration: 0.8s;
+	}
+
+	.isotope {
+	  -webkit-transition-property: height, width;
+	     -moz-transition-property: height, width;
+	      -ms-transition-property: height, width;
+	       -o-transition-property: height, width;
+	          transition-property: height, width;
+	}
+
+	.isotope .isotope-item {
+	  -webkit-transition-property: -webkit-transform, opacity;
+	     -moz-transition-property:    -moz-transform, opacity;
+	      -ms-transition-property:     -ms-transform, opacity;
+	       -o-transition-property:      -o-transform, opacity;
+	          transition-property:         transform, opacity;
+	}
+
+	/**** disabling Isotope CSS3 transitions ****/
+
+	.isotope.no-transition,
+	.isotope.no-transition .isotope-item,
+	.isotope .isotope-item.no-transition {
+	  -webkit-transition-duration: 0s;
+	     -moz-transition-duration: 0s;
+	      -ms-transition-duration: 0s;
+	       -o-transition-duration: 0s;
+	          transition-duration: 0s;
+	}
+
+	/* Single Project */
+
+	.project-media {
+
+	}
+
+	.project-content {
+
+	}
+
+	/* Lightbox Style */
+
+	.project-media img {
+		display: block;
+		border-radius: 3px 3px 0 0;
+		-webkit-border-radius: 3px 3px 0 0;
+
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		max-width: 100%;
+		height: auto;
+	}
+
+	.project-media .single-featured {
+		position: relative;
+		display: block;
+	}
+
+	.project-media .xt-project-hover {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+
+		background: rgba(0, 0, 0, 0.3);
+		z-index: 444;
+		display: none;
+	}
+
+	.project-media .xt-project-hover span {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		text-align: center;
+		display: block;
+		width: 40px;
+		height: 40px;
+		margin-left: -20px;
+		margin-top: -20px;
+		line-height: 40px;
+		
+		background: transparent;
+		color: #fff;
+	}
+
+	.project-media .xt-project-hover span i {
+		font-size: 40px;
+	}
+
+	/* Right Sidebar Layout */
+
+	.project-media-right {
+		width: 65%;
+		float: left;
+	}
+
+	.project-content-right {
+		width: 33%;
+		float: right;
+	}
+
+	/* Left Sidebar Layout */
+
+	.project-media-left {
+		width: 65%;
+		float: right;
+	}
+
+	.project-content-left {
+		width: 33%;
+		float: left;
+	}
+
+	/* Left Sidebar Full */
+
+	.project-media-full {
+		margin-bottom: 30px;
+	}
+
+	.project-content-full {
+		margin-bottom: 10px;
+	}
+
+	/* Related Projects */
+
+	.single-project-related {
+
+	}
+
+	.single-project-related .xt-related-headline {
+
+	}
+
+	.single-project-related .xt-related-headline h1 {
+
+	}
+
+	.xt-related-wrapper {
+
+	}
+
+	.xt-related-wrapper .project-item.project-four {
+		float: left;
+		width: 23.5%;
+		margin-bottom: 0;
+	}
+
+	.xt-related-wrapper .project-item.project-four.project-first {
+		margin-left: 0;
+	}
+
+	.xt-related-wrapper .project-item.project-four.project-last{
+		margin-right: 0;
+	}
+
+/****************
+	SHORTCODE LAYOUT
+*****************/
+
+	.xt-projects-wrapper.xt-projects-shortcode {
+
+	}
+
+	.xt-projects-wrapper.xt-projects-shortcode .project-item {
+		float: left;
+	}
+
+	/* Project Layouts */
+
+	.xt-projects-wrapper.xt-projects-shortcode .project-three {
+		margin: 0 1% 20px;
+		width: 32%;
+	}
+
+	.xt-projects-wrapper.xt-projects-shortcode .project-three {
+		margin: 0 1% 20px;
+		width: 32%;
+	}
+
+	.xt-projects-wrapper.xt-projects-shortcode .project-four {
+		margin: 0 1% 20px;
+		width: 23.5%;
+	}
+
+	.xt-projects-wrapper.xt-projects-shortcode .project-two {
+		margin: 0 1% 20px;
+		width: 49%;
+	}
+
+	/* Last and First Items Fix */
+
+	.xt-projects-wrapper.xt-projects-shortcode .project-first {
+		margin-left: 0;
+	}
+
+	.xt-projects-wrapper.xt-projects-shortcode .project-last {
+		margin-right: 0;
+	}
+
+/*****************
+	XT VIDEO
+*****************/
+
+	.video-frame {
+
+	}
+
+	.video-fluid-wrapper {
+		padding: 0;
+		position: relative;
+		width: 100%;
+	}
+
+	.video-fluid-wrapper iframe, .video-fluid-wrapper object, .video-fluid-wrapper embed {
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+
+/*****************************************
+	MEDIA QUERIES
+*****************************************/
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+		.xt-projects-wrapper .project-item.project-two, .xt-projects-wrapper .project-item.project-three,
+		.xt-projects-wrapper .project-item.project-four {
+			width: 47.9%;
+		}
+
+		/* Related */
+
+		.xt-related-wrapper .project-item {
+			margin: 0 1% 20px !important;
+			width: 49% !important;
+		}
+
+		.xt-related-wrapper .project-item.project-odd {
+			margin-left: 0 !important;
+		}
+
+		.xt-related-wrapper .project-item.project-even {
+			margin-right: 0 !important;
+		}
+
+		/* Shortcodes */
+
+		.xt-projects-wrapper.xt-projects-shortcode .project-item {
+			margin: 0 1% 20px !important;
+			width: 49% !important;
+		}
+
+		.xt-projects-wrapper.xt-projects-shortcode .project-item.project-odd {
+			margin-left: 0 !important;
+		}
+
+		.xt-projects-wrapper.xt-projects-shortcode .project-item.project-even {
+			margin-right: 0 !important;
+		}
+
+		.xt-related-wrapper .xt-clear, .xt-projects-wrapper .xt-clear {
+			clear: none;
+			display: none;
+		}
+
+		.xt-related-wrapper .xt-mob-clear, .xt-projects-wrapper .xt-mob-clear {
+			clear: both;
+			display: block;
+		}
+
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+
+		.xt-projects-wrapper .project-item.project-two, .xt-projects-wrapper .project-item.project-three,
+		.xt-projects-wrapper .project-item.project-four {
+			width: 98%;
+		}
+
+		.xt-related-wrapper .project-item {
+			margin-left: 0 !important;
+			margin-right: 0 !important;
+			margin-bottom: 20px !important;
+			float: none !important;
+			clear: both !important;
+			width: auto !important;
+		}
+
+		.xt-related-wrapper .project-item:last-child {
+			margin-bottom: 0 !important;
+		}
+
+		.xt-projects-wrapper.xt-projects-shortcode .project-item {
+			margin-left: 0 !important;
+			margin-right: 0 !important;
+			margin-bottom: 20px !important;
+			float: none !important;
+			clear: both !important;
+			width: auto !important;
+		}
+
+		.xt-projects-wrapper.xt-projects-shortcode .project-item:last-child {
+			margin-bottom: 0 !important;
+		}
+
+	}
+
+/*****************************************
+	CUSTOM CSS AREA
+******************************************/
+
+	

@@ -1,0 +1,106 @@
+	<div class="row">
+				<a class="remove-row" href="#">Remove Row</a>
+				<!-- layout -->
+				<div class="layout columns one_half">
+				
+					<input type="hidden" name="elements[0]" />
+						<input type="hidden" name="elements[0][0]" value="layout" />
+						<input type="hidden" name="elements[0][1]" value="column_half" />
+							<div class="layout-content">
+								<div class="wpts-widget rich_text">
+								<h6><a href="#" class="edit-widget">Title</a><a href="#" class="remove-widget">Remove</a></h6>
+								<!-- widget -->
+								<input type="hidden" name="elements[0][2][0]" value="widget" />
+								<input type="hidden" name="elements[0][2][1]" value="rich_text" />
+								<textarea name="elements[0][2][2]"><h1>1</h1></textarea>
+								</div>
+								<!-- widget -->
+								<div class="wpts-widget rich_text">
+								<h6><a href="#" class="edit-widget">Title</a><a href="#" class="remove-widget">Remove</a></h6>
+								<input type="hidden" name="elements[0][2][3]" value="widget" />
+								<input type="hidden" name="elements[0][2][4]" value="rich_text" />
+								<textarea name="elements[0][2][5]"><h1>2</h1></textarea>
+								</div>
+								<!-- widget -->
+								<div class="wpts-widget rich_text">
+								<h6><a href="#" class="edit-widget">Title</a><a href="#" class="remove-widget">Remove</a></h6>
+								<input type="hidden" name="elements[0][2][6]" value="widget" />
+								<input type="hidden" name="elements[0][2][7]" value="rich_text" />
+								<textarea name="elements[0][2][3]"><h1>Carlos</h1></textarea>
+								</div>
+							</div> <!-- .layout-content -->
+							<div class="layout-control">
+								<?php require("select-widgets.php"); ?>
+								<a href="#" class="add_widget_layout" id="">Add Widget</a>
+							</div> <!-- layout.control -->
+				</div> 
+			
+				<div class="layout columns one_half last">
+				
+				<!--layout -->
+				<input type="hidden" name="elements[1]" />
+					<input type="hidden" name="elements[1][0]" value="layout" />
+					<input type="hidden" name="elements[1][1]" value="column_half_last" />
+						<div class="layout-content">
+							<!-- widget -->
+							<div class="wpts-widget rich_text">
+							<h6><a href="#" class="edit-widget">Title</a><a href="#" class="remove-widget">Remove</a></h6>
+							<input type="hidden" name="elements[1][2][0]" value="widget" />
+							<input type="hidden" name="elements[1][2][1]" value="rich_text" />
+							<textarea name="elements[1][2][2]"><h1>3</h1></textarea>
+							</div>
+							<!-- widget -->
+							<div class="wpts-widget rich_text">
+							<h6><a href="#" class="edit-widget">Title</a><a href="#" class="remove-widget">Remove</a></h6>
+							<input type="hidden" name="elements[1][2][3]" value="widget" />
+							<input type="hidden" name="elements[1][2][4]" value="rich_text" />
+							<textarea name="elements[1][2][5]"><h1>4</h1></textarea>
+							</div>
+						</div> <!-- .layout-content -->
+						<div class="layout-control">
+							<?php require("select-widgets.php"); ?>
+							<a href="#" class="add_widget_layout" id="">Add Widget</a>
+						</div> <!-- layout.control -->
+				</div>
+				<div class="builder-clear"></div>
+			</div> <!-- .row -->
+			
+			<div class="row">
+				<a class="remove-row" href="#">Remove Row</a>
+				<!-- widget -->
+				<div class="wpts-widget rich_text">
+				
+				<input type="hidden" name="elements[2]" />
+					<h6><a href="#" class="edit-widget">Title</a><a href="#" class="remove-widget">Remove</a></h6>
+					<input type="hidden" name="elements[2][0]" value="widget" />
+					<input type="hidden" name="elements[2][1]" value="rich_text" />
+					<textarea name="elements[2][2]"><h1>5</h1></textarea>
+				
+				</div>
+				
+				<div class="layout-control">
+					<?php require("select-widgets.php"); ?>
+					<a href="#" class="add_widget_layout" id="">Add Widget</a>
+				</div> <!-- layout.control -->
+				
+			</div> <!-- .row -->
+			
+			<div class="row">
+				<a class="remove-row" href="#">Remove Row</a>
+				<!-- widget -->
+				<div class="wpts-widget rich_text">
+				
+				<input type="hidden" name="elements[3]" />
+					<h6><a href="#" class="edit-widget">Title</a><a href="#" class="remove-widget">Remove</a></h6>
+					<input type="hidden" name="elements[3][0]" value="widget" />
+					<input type="hidden" name="elements[3][1]" value="rich_text" />
+					<textarea name="elements[3][2]"><h1>5</h1></textarea>
+				
+				</div>
+				
+				<div class="layout-control">
+					<?php require("select-widgets.php"); ?>
+					<a href="#" class="add_widget_layout" id="">Add Widget</a>
+				</div> <!-- layout.control -->
+				
+			</div> <!-- .row -->

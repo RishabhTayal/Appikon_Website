@@ -1,0 +1,96 @@
+	/* Revolution Captions */
+
+	.tp-caption.default-heading {
+		/* Fonts */
+		color: #fff;
+		font-size: 38px;
+		line-height: 42px;
+		font-weight: bold;
+		letter-spacing: 0px;
+
+		/* Background and Effects */
+		padding: 13px 20px;
+		background: red;
+	}
+
+	.tp-caption.subheader-gray {
+		/* Fonts */
+		color: #fff;
+		font-size: 24px;
+		line-height: 30px;
+		font-weight: bold;
+		letter-spacing: 0px;
+
+		/* Background and Effects */
+		padding: 8px 16px;
+		background: #888;
+	}
+
+	.tp-caption.paragraph {
+		/* Fonts */
+		color: #656565;
+		font-size: 14px;
+		line-height: 20px;
+		font-weight: normal;
+		letter-spacing: 0px;
+
+		/* Background and Effects */
+		padding: 0px;
+		background: transparent;
+	}
+
+	.tp-caption.opacity-dark {
+		/* Fonts */
+		color: #fff;
+		font-size: 30px;
+		line-height: 36px;
+		font-weight: bold;
+		letter-spacing: 0px;
+
+		/* Background and Effects */
+		padding: 12px 18px;
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+	.tp-caption.very-big {
+		/* Fonts */
+		color: #00ADEE;
+		font-size: 80px;
+		line-height: 86px;
+		font-weight: 800;
+		letter-spacing: -7px;
+
+		/* Background and Effects */
+		padding: 0;
+		background: transparent;
+	}
+
+	.tp-caption.very-big-dark {
+		/* Fonts */
+		color: #444;
+		font-size: 80px;
+		line-height: 86px;
+		font-weight: 800;
+		letter-spacing: -7px;
+
+		/* Background and Effects */
+		padding: 0;
+		background: transparent;
+	}
+
+	.tp-caption a { 
+		color: #fff;
+		text-shadow: none;
+		-webkit-transition: all 0.2s ease-out;
+		-moz-transition: all 0.2s ease-out;
+		-o-transition: all 0.2s ease-out;
+		-ms-transition: all 0.2s ease-out;
+	}	
+		
+	.tp-caption a:hover { 
+		color: #fff; 
+	}
+
+	.tp-caption a.button-white:hover {
+		color: #333;
+	}

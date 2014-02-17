@@ -1,0 +1,77 @@
+/***************************
+	PAGE MANAGER
+***************************/
+
+	#avaliable-pages {
+		margin-right: 15px;
+	}
+
+	.pages-custom {
+		margin-bottom: 20px;
+		background: #efefef;
+	}
+
+	.pages-custom .single-page {
+		padding: 10px 15px;
+
+		background: #2a9ec1;
+		background: -moz-linear-gradient(top,  #2a9ec1 0%, #21759b 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2a9ec1), color-stop(100%,#21759b));
+		background: -webkit-linear-gradient(top,  #2a9ec1 0%,#21759b 100%);
+		background: -o-linear-gradient(top,  #2a9ec1 0%,#21759b 100%);
+		background: -ms-linear-gradient(top,  #2a9ec1 0%,#21759b 100%);
+		background: linear-gradient(to bottom,  #2a9ec1 0%,#21759b 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a9ec1', endColorstr='#21759b',GradientType=0 );
+
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+
+		display: block;
+		width: auto;
+		margin-bottom: 10px;
+
+		position: relative;
+	}
+
+	.pages-custom .single-page span {
+		display: inline-block;
+		margin: 0px;
+		margin-right: 25px;
+		color: #fff;
+	    font-size: 12px;
+	    font-weight: bold;
+	}
+
+	.pages-custom .single-page a {
+		background: #fff;
+		padding: 3px 5px;
+		font-size: 10px;
+		color: #333;
+		text-decoration: none;
+		position: absolute;
+		right: 10px;
+		top: 8px;
+	}
+
+	.pages-custom .single-page a.external {
+		right: 63px;
+	}
+
+	.pages-custom .single-page .external.external-y {
+		background: #69B72A;
+		color: #fff;
+	}
+
+	.pages-custom .single-page:last-child {
+		margin-bottom: 0;
+	}
+
+	.new-area {
+		
+	}
+
+	.new-area label {
+		font-weight: bold;
+		display: block;
+		margin-bottom: 5px;
+	}

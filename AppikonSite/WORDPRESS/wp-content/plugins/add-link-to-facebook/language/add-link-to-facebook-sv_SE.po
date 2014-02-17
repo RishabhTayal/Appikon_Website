@@ -1,0 +1,1732 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Add Link to Facebook v1.186\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-19 18:35+0100\n"
+"PO-Revision-Date: 2013-06-30 16:32+0100\n"
+"Last-Translator: Marcel Bokhorst\n"
+"Language-Team: JornB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: it_IT\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:606
+msgid "Settings updated"
+msgstr "Inställningar uppdaterade"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:641
+msgid "Authorized, go posting!"
+msgstr "Godkänd, posta på!"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:692
+msgid "Debug information sent"
+msgstr "Felinformation skickad"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:697
+msgid "Sending debug information failed"
+msgstr "Sändingen av felinformationen misslyckades"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:721
+msgid "needs configuration"
+msgstr "behöver konfigureras"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:725
+msgid "needs authorization"
+msgstr "behöver godkännas"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:12
+#: add-link-to-facebook-class.php:739
+#: add-link-to-facebook-class.php:760
+#: add-link-to-facebook-class.php:795
+#: add-link-to-facebook-class.php:796
+#: add-link-to-facebook-class.php:1094
+#: add-link-to-facebook-class.php:2649
+msgid "Add Link to Facebook"
+msgstr "Add Link to Facebook"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:795
+msgid "Administration"
+msgstr "Administration"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:822
+msgid "Settings"
+msgstr "Inställningar"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:125
+msgid "Your server may not allow external connections"
+msgstr "Din server kanske inte tillåter externa anslutningar"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:144
+msgid "Authorization"
+msgstr "Auktorisation"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:157
+msgid "Links will be added to"
+msgstr "Länkar kommer att läggas till"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:176
+msgid "Authorize"
+msgstr "Godkänna"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:225
+msgid "Easy setup"
+msgstr "Enkel installation"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:234
+msgid "To get an App ID and App Secret you have to create a Facebook application"
+msgstr "För att få ett App ID och en App hemlighet behöver du skapa en Facebook applikation"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:235
+msgid "You have to fill in the following:"
+msgstr "Du behöver fylla i följande:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:238
+#: add-link-to-facebook-admin.php:285
+msgid "App Name:"
+msgstr "App namn:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:239
+msgid "Anything you like, will appear as \"via ...\" below the message"
+msgstr "Det du gillar kommer visas som \"via...\" under meddelandet"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:246
+msgid "Click here to create"
+msgstr "Klicka här för att skapa"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:255
+msgid "App ID:"
+msgstr "App ID:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:261
+msgid "App Secret:"
+msgstr "App hemlighet:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:270
+msgid "Access token:"
+msgstr "Åtkomsttoken:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:298
+msgid "Share with all users on this site:"
+msgstr "Dela med alla användare på denna sajt:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:309
+#: add-link-to-facebook-admin.php:404
+#: add-link-to-facebook-admin.php:631
+#: add-link-to-facebook-admin.php:711
+#: add-link-to-facebook-admin.php:773
+#: add-link-to-facebook-admin.php:830
+#: add-link-to-facebook-admin.php:866
+#: add-link-to-facebook-admin.php:893
+#: add-link-to-facebook-admin.php:923
+#: add-link-to-facebook-admin.php:949
+#: add-link-to-facebook-admin.php:1006
+#: add-link-to-facebook-admin.php:1042
+#: add-link-to-facebook-admin.php:1150
+#: add-link-to-facebook-admin.php:1231
+#: add-link-to-facebook-admin.php:1544
+msgid "Save"
+msgstr "Spara"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:330
+msgid "Additional settings"
+msgstr "Ytterligare inställningar"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:354
+msgid "Link picture:"
+msgstr "Länka bild:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:356
+msgid "WordPress logo"
+msgstr "WordPress logotyp"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:357
+msgid "First attached image"
+msgstr "Första bifogade bilden"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:358
+msgid "Featured post image"
+msgstr "Dagens inlägg bild"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:359
+msgid "Let Facebook select"
+msgstr "Låt Facebook välja"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:360
+msgid "First image in the post"
+msgstr "Första bilden i inlägget"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:365
+msgid "Image from User Photo plugin"
+msgstr "Bild från User Photo plugin:en"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:369
+msgid "Custom picture below"
+msgstr "Anpassad bilden nedan"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:373
+msgid "Custom picture URL:"
+msgstr "Anpassad bild URL:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:376
+msgid "At least 50 x 50 pixels"
+msgstr "Minst 50 x 50 pixlar"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:380
+msgid "Default picture URL:"
+msgstr "Standard bild URL:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:383
+msgid "Default WordPress logo"
+msgstr "Standard Wordpress logotyp"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:444
+#: add-link-to-facebook-class.php:924
+msgid "Add to page:"
+msgstr "Lägg till sidan:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:510
+msgid "Use groups:"
+msgstr "Använd grupper:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:535
+msgid "Add to group:"
+msgstr "Lägg till grupp:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:448
+#: add-link-to-facebook-admin.php:539
+#: add-link-to-facebook-admin.php:753
+#: add-link-to-facebook-admin.php:1298
+#: add-link-to-facebook-class.php:927
+#: add-link-to-facebook-class.php:1138
+msgid "None"
+msgstr "Ingen"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:651
+msgid "Use site title as caption:"
+msgstr "Använd sidans titel som rubrik"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:658
+msgid "Use excerpt as message:"
+msgstr "Använd utdrag som meddelande:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:670
+msgid "Text trailer:"
+msgstr "Text trailer:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:673
+#: add-link-to-facebook-admin.php:728
+msgid "For example \"Read more ...\""
+msgstr "Till exempel \"Läs mer ...\""
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:677
+msgid "Keep hyperlinks:"
+msgstr "Spara länkar:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:680
+msgid "The hyperlink title will be removed"
+msgstr "Länktiteln kommer att tas bort"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:684
+msgid "Use short URL:"
+msgstr "Använd kort URL:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:687
+msgid "If available"
+msgstr "Om tillgänglig"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1177
+msgid "Add links for new pages:"
+msgstr "Lägg till länkar för nya sidor:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:719
+msgid "Integrate comments from Facebook:"
+msgstr "Integrera kommentarer från Facebook:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:732
+msgid "Post WordPress comments back to Facebook:"
+msgstr "Publicera WordPress kommentarer tillbaka till Facebook:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:744
+msgid "Copy comments from Facebook to WordPress:"
+msgstr "Kopiera kommentarer från Facebook till WordPress:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:747
+msgid "Enables for example editing of Facebook comments"
+msgstr "Aktiverar till exempel redigering av Facebook kommentarer"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:751
+msgid "Link Facebook comment to:"
+msgstr "Länka Facebook kommentarer till:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:754
+#: add-link-to-facebook-admin.php:757
+msgid "Disables displaying of Facebook avatars too"
+msgstr "Inaktiverar också visning av Facebook avatarer"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:755
+msgid "Profile author"
+msgstr "Profil författare"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:756
+msgid "Added link"
+msgstr "Tillagda länkar"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:761
+msgid "Integrate likes from Facebook:"
+msgstr "Integrera Gilla från Facebook:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:767
+msgid "Show likers below the post text:"
+msgstr "Visa Gilla:re under inläggets text:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:781
+msgid "Show Facebook like button:"
+msgstr "Visa Facebook Gilla knapp:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:784
+#: add-link-to-facebook-admin.php:819
+#: add-link-to-facebook-admin.php:962
+#: add-link-to-facebook-admin.php:976
+#: add-link-to-facebook-admin.php:1130
+#: add-link-to-facebook-admin.php:1138
+msgid "Documentation"
+msgstr "Dokumentation"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1051
+msgid "Do not show on the home page:"
+msgstr "Visa inte på hemsidan:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1057
+msgid "Do not show on posts:"
+msgstr "Visa inte i inlägg:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1063
+msgid "Do not show on pages:"
+msgstr "Visa inte på sidor:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1069
+msgid "Do not show in archives:"
+msgstr "Visa inte i arkiv:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1075
+msgid "Do not show in categories:"
+msgstr "Visa inte i kategorier:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:788
+#: add-link-to-facebook-admin.php:875
+msgid "Layout:"
+msgstr "Layout:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:790
+#: add-link-to-facebook-admin.php:878
+msgid "Standard"
+msgstr "Standard"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:791
+#: add-link-to-facebook-admin.php:879
+msgid "Button with count"
+msgstr "Knapp med räknare"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:792
+#: add-link-to-facebook-admin.php:880
+msgid "Box with count"
+msgstr "Låda med räknare"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1081
+msgid "Faces:"
+msgstr "Ansikten:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:796
+#: add-link-to-facebook-admin.php:839
+#: add-link-to-facebook-admin.php:885
+#: add-link-to-facebook-admin.php:908
+#: add-link-to-facebook-admin.php:941
+#: add-link-to-facebook-admin.php:1015
+msgid "Width:"
+msgstr "Bredd:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:799
+#: add-link-to-facebook-admin.php:842
+#: add-link-to-facebook-admin.php:849
+#: add-link-to-facebook-admin.php:888
+#: add-link-to-facebook-admin.php:911
+#: add-link-to-facebook-admin.php:944
+#: add-link-to-facebook-admin.php:961
+#: add-link-to-facebook-admin.php:969
+#: add-link-to-facebook-admin.php:1018
+#: add-link-to-facebook-admin.php:1025
+msgid "Pixels"
+msgstr "Pixlar"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:803
+msgid "Action:"
+msgstr "Åtgärd:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:805
+#: add-link-to-facebook-int.php:1150
+msgid "Like"
+msgstr "Gilla"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:806
+#: add-link-to-facebook-int.php:1150
+msgid "Recommend"
+msgstr "Rekommendera"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1093
+msgid "Font:"
+msgstr "Typsnitt:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1107
+msgid "Color scheme:"
+msgstr "Färgschema:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1109
+msgid "Light"
+msgstr "Ljus"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1110
+msgid "Dark"
+msgstr "Mörk"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1120
+msgid "Link to:"
+msgstr "Länka till:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1123
+msgid "Default the post or page"
+msgstr "Standard inlägg eller sida"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:810
+msgid "Show at the top of the post:"
+msgstr "Visa ovan inlägget:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:816
+msgid "Show Facebook send button:"
+msgstr "Visa Facebook Skicka knapp:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:823
+msgid "Combine Facebook like and send buttons:"
+msgstr "Kombinera Facebook Gilla och Skicka knappar:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1127
+msgid "Use Open Graph protocol:"
+msgstr "Använd OpenGraph protokoll:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1134
+msgid "Open Graph protocol <em>og:type</em>:"
+msgstr "OpenGraph protokoll <em>og:type</em>:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1159
+msgid "Do not add link by default:"
+msgstr "Lägg inte till länk som standard:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1171
+msgid "Don't show a summary in the post list:"
+msgstr "Visa inte en summering i inläggslistan:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1196
+msgid "Facebook character encoding:"
+msgstr "Facebook teckenkodning:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1199
+msgid "Default UTF-8; do not change if no need"
+msgstr "Standard UTF-8; ändra inte om det inte behövs"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1203
+msgid "Facebook locale:"
+msgstr "Facebook locale:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1206
+msgid "Do not change if no need"
+msgstr "Ändra inte om det inte behövs"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1495
+msgid "Clean on deactivate:"
+msgstr "Ren vid avaktivering:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1500
+msgid "All data, except link id's"
+msgstr "All data, utom länkars ID"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1225
+msgid "I have donated to this plugin:"
+msgstr "Jag har donerat till denna plugin:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1239
+msgid "Administrator options"
+msgstr "Administratörsinställningar:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1250
+msgid "Do not display notices:"
+msgstr "Visa inte meddelanden:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1253
+msgid "Except on this page"
+msgstr "Förutom på denna sidan"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1257
+msgid "Required capability to use plugin:"
+msgstr "Kräver kompabilitet för att använda plugin:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1310
+msgid "Refresh Facebook comments every:"
+msgstr "Uppdatera Facebook kommentarer varje:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1313
+msgid "Minutes"
+msgstr "minuter"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1314
+msgid "Default every 10 minutes"
+msgstr "Standard var 10:e minut"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1341
+msgid "Maximum Facebook text length:"
+msgstr "Maximal Facebook textlängd:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1336
+#: add-link-to-facebook-admin.php:1344
+#: add-link-to-facebook-admin.php:1352
+msgid "Characters"
+msgstr "tecken"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1337
+#: add-link-to-facebook-admin.php:1353
+msgid "Default 256 characters"
+msgstr "Standard 256 tecken"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1363
+msgid "Exclude these custom post types:"
+msgstr "Uteslut dessa anpassade inläggstyper:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1366
+#: add-link-to-facebook-admin.php:1387
+#: add-link-to-facebook-admin.php:1394
+#: add-link-to-facebook-admin.php:1402
+#: add-link-to-facebook-admin.php:1409
+msgid "Separate by commas"
+msgstr "Separera med komma"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1383
+msgid "Exclude these categories:"
+msgstr "Uteslut dessa kategorier:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1413
+msgid "Do not verify the peer's certificate:"
+msgstr "Verifiera inte certifikat:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1416
+#: add-link-to-facebook-admin.php:1423
+msgid "Try this in case of cURL error 60"
+msgstr "Prova detta vid cURL error 60"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1514
+msgid "Debug options"
+msgstr "Debug alternativ"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1517
+msgid "Use site URL as request URI:"
+msgstr "Använd sajtens URL som URI begäran:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1523
+msgid "Do not use cURL:"
+msgstr "Använd inte cURL:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1529
+msgid "Use publish_post action:"
+msgstr "Använd publish_post:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1535
+msgid "Debug:"
+msgstr "Debug:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1600
+msgid "Resources"
+msgstr "Resurser"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1603
+msgid "Frequently asked questions"
+msgstr "FAQ"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1605
+msgid "Support page"
+msgstr "Supportsida"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1606
+#: add-link-to-facebook-admin.php:1637
+msgid "Debug information"
+msgstr "Debug information"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1607
+msgid "About the author"
+msgstr "Om författaren"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1608
+msgid "Other plugins"
+msgstr "Andra plugin"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1644
+msgid "Name:"
+msgstr "Namn:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1650
+msgid "E-mail:"
+msgstr "E-post:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1664
+msgid "Message:"
+msgstr "Meddelande:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1678
+msgid "Send"
+msgstr "Skicka"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:955
+msgid "Do not add link to Facebook"
+msgstr "Länka inte till Facebook"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:961
+msgid "Do not add like button"
+msgstr "Lägg inte till Gilla-knappen"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:964
+msgid "Do not integrate comments"
+msgstr "Integrera inte kommentarer"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:976
+msgid "Delete existing Facebook link"
+msgstr "Ta bort länk till Facebook"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:1003
+msgid "Clear error messages"
+msgstr "Ta bort felmeddelanden"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:1020
+#: add-link-to-facebook-int.php:513
+msgid "Facebook"
+msgstr "Facebook"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:1060
+msgid "No"
+msgstr "Nej"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:1070
+msgid "comments"
+msgstr "kommentarer"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:1080
+msgid "likes"
+msgstr "gillar"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:1121
+msgid "No images in the media library for this post"
+msgstr "Inga bilder i media biblioteket för detta inlägg"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:1127
+msgid "Select link image:"
+msgstr "Välj länkbild:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:1176
+msgid "Custom excerpt"
+msgstr "Anpassat utdrag"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-int.php:905
+#: add-link-to-facebook-int.php:963
+msgid "commented on"
+msgstr "kommenterade"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:2321
+#: add-link-to-facebook-class.php:2434
+msgid "on Facebook"
+msgstr "på Facebook"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:2440
+msgid "Liked this post"
+msgstr "Gillade det här inlägget"
+
+# @ default
+#: add-link-to-facebook-widget.php:366
+msgid "Title:"
+msgstr "Titel:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-widget.php:393
+msgid "Show Facebook like button"
+msgstr "Visa Gilla-knappen till Facebook"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-widget.php:401
+msgid "Show Facebook send button"
+msgstr "Visa Skicka-knappen till Facebook"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-widget.php:417
+msgid "Show Facebook image/link"
+msgstr "Visa bild/länk till Facebook"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:26
+#: add-link-to-facebook-widget.php:344
+msgid "Only this user can access the settings:"
+msgstr "Endast denna användare kan ändra dessa inställningar:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:135
+msgid "Please be aware that comment integration or showing Facebook messages in the widget could harm the privacy of other Facebook users!"
+msgstr "Observera att integrera kommentarer eller visa Facebook-meddelanden i widgeten kan skada integriteten hos andra Facebookanvändare!"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:150
+msgid "Plugin is authorized"
+msgstr "Tillägget är auktoriserad"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:191
+#: add-link-to-facebook-admin.php:1618
+msgid "Donate in EUR"
+msgstr "Donera i EUR"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:204
+#: add-link-to-facebook-admin.php:313
+msgid "Show"
+msgstr "Visa"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:242
+msgid "Website > Site URL:"
+msgstr "Hemsida > URL:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:247
+msgid "and navigate to '<em>Apps</em>' and then to '<em>Create New App</em>'"
+msgstr "och navigera till \"<em>Apps</em>\" och sedan till \"<em>Skapa ny applikation</em>\""
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:249
+#: add-link-to-facebook-admin.php:1602
+msgid "Setup guide & user manual"
+msgstr "Setup guide & instruktionsbok"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:333
+msgid "Picture"
+msgstr "Fotografi"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:334
+msgid "Page/group"
+msgstr "Sida/ grupp"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:335
+msgid "Appearance"
+msgstr "Utseende"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:336
+msgid "Comments"
+msgstr "Kommentarer"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:337
+msgid "Like button"
+msgstr "Gilla knapp"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:338
+msgid "Like box"
+msgstr "Gilla box"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:339
+#: add-link-to-facebook-admin.php:871
+msgid "Subscribe button"
+msgstr "Prenumerera knapp"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:340
+msgid "Comments plugin"
+msgstr "Kommentarstillägg"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:341
+msgid "Face pile"
+msgstr "Bilder med ansikten"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:342
+msgid "Login"
+msgstr "Logga in"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:343
+msgid "Activity feed"
+msgstr "Aktivitetsflöde"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:344
+msgid "Common"
+msgstr "Allmänt"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:345
+msgid "Misc."
+msgstr "Div."
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:346
+msgid "Admin"
+msgstr "Admin"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:351
+#: add-link-to-facebook-class.php:1201
+msgid "Link picture"
+msgstr "Länkbild"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:361
+msgid "Avatar of author"
+msgstr "Författaravatar"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:387
+msgid "Picture size sent to Facebook:"
+msgstr "Bildstorlek skickad till Facebook:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:389
+msgid "thumbnail"
+msgstr "tumnagel"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:390
+msgid "medium"
+msgstr "medium"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:391
+msgid "large"
+msgstr "stor"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:392
+msgid "Facebook will always show a small picture"
+msgstr "Facebook kommer alltid att visa en liten bild"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:393
+msgid "Only works for pictures from the media library"
+msgstr "Fungerar endast för bilder från mediebibliotek"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:397
+msgid "URL news feed icon:"
+msgstr "URL nyhetsflöde ikon:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:400
+msgid "Does anybody know where this appears on Facebook?"
+msgstr "Någon som vet var detta visas på Facebook?"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:441
+msgid "Facebook page"
+msgstr "Facebooksida"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:450
+#: add-link-to-facebook-admin.php:471
+#: add-link-to-facebook-class.php:929
+msgid "Personal"
+msgstr "Personligt"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:464
+msgid "Add also to pages:"
+msgstr "Lägg också till sidor:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:484
+#: add-link-to-facebook-admin.php:568
+#: add-link-to-facebook-admin.php:622
+msgid "This option is only available in"
+msgstr "Det här alternativet är endast tillgängligt i"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:507
+msgid "Facebook group"
+msgstr "Facebookgrupper"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:518
+#: add-link-to-facebook-admin.php:593
+msgid "Disable the links API to use this feature"
+msgstr "Inaktivera länk API för att använda den här funktionen"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:552
+msgid "Add also to groups:"
+msgstr "Lägg också till grupper:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:582
+msgid "Facebook friends"
+msgstr "Facebookvänner"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:585
+msgid "Add to wall of friends:"
+msgstr "Lägg till vännersväggar:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:641
+msgid "First authorize the plugin"
+msgstr "Tillåt först tillägget"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:648
+msgid "Link appearance"
+msgstr "Länk utseende"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:664
+msgid "Automatically generate excerpt:"
+msgstr "Automatiskt generera utdrag:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:691
+msgid "Privacy:"
+msgstr "Sekretess:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:693
+msgid "Only works for your personal wall"
+msgstr "Fungerar bara på din personliga vägg"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:694
+msgid "Default"
+msgstr "Standard"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:695
+msgid "Everyone"
+msgstr "Alla"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:696
+msgid "All friends"
+msgstr "Alla vänner"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:697
+msgid "Network friends"
+msgstr "Nätverks vänner"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:698
+msgid "Friends of friends"
+msgstr "Vänners vänner"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:699
+msgid "Only me"
+msgstr "Bara mig"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:700
+#: add-link-to-facebook-admin.php:703
+msgid "Some friends:"
+msgstr "Vissa vänner:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:706
+msgid "Comma-separated list of Facebook user IDs and friend list IDs"
+msgstr "Kommaseparerad lista med Facebookvännernas användarnamn och ID"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:716
+msgid "Facebook comments"
+msgstr "Facebook kommentarer"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:725
+msgid "Comment trailer:"
+msgstr "Kommentera släptext:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:738
+msgid "Do not send pingbacks and trackbacks:"
+msgstr "Skicka inte Pingbacks och trackbacks:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:756
+msgid "Does not work for groups"
+msgstr "Fungerar inte för grupper"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:778
+msgid "Facebook like button"
+msgstr "Facebook gilla knapp"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:835
+msgid "Facebook like box"
+msgstr "Facebook gilla box"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:846
+#: add-link-to-facebook-admin.php:1022
+msgid "Height:"
+msgstr "Höjd:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:853
+msgid "Disable like box header:"
+msgstr "Inaktivera gilla box rubriken:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:859
+msgid "Disable like box stream:"
+msgstr "Inaktivera gilla box stream:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:898
+msgid "Facebook comments plugin"
+msgstr "Facebook kommentarstillägg"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:902
+msgid "Number of posts:"
+msgstr "Antal inlägg:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:915
+msgid "Display automatically after post:"
+msgstr "Visa automatiskt efter inlägg:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:918
+msgid "There is no comment integration for the Facebook comments plugin!"
+msgstr "Det finns ingen integration för Facebook kommentarer!"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:928
+msgid "Facebook face pile"
+msgstr "Facebookbilder med ansikten"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:932
+msgid "Size:"
+msgstr "Storlek:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:935
+msgid "Small"
+msgstr "Liten"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:936
+msgid "Large"
+msgstr "Stor"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:954
+msgid "Facebook login"
+msgstr "Facebook login"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:958
+msgid "Registration width:"
+msgstr "Registreringsbredd:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:966
+msgid "Login width:"
+msgstr "Inloggningsbredd:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:973
+msgid "Login registration URL:"
+msgstr "Inloggningsregistrerings URL:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:980
+msgid "Registration success URL:"
+msgstr "Lyckad registrerings URL:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:986
+msgid "Login redirect URL:"
+msgstr "OmdirigeringsURL för login:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:992
+msgid "Allow adding links with login:"
+msgstr "Tillåt att lägga till länkar vid inloggning:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:998
+msgid "Text or HTML when logged in:"
+msgstr "Text eller HTML vid inloggning:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1011
+msgid "Facebook activity feed"
+msgstr "Facebook aktivitetsflöde"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1029
+msgid "Show header:"
+msgstr "Visa rubrik:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1035
+msgid "Show recommendations:"
+msgstr "Visa rekommendationer:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1047
+msgid "Facebook common"
+msgstr "Allmänt Facebook"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1087
+msgid "Maximum count of rows:"
+msgstr "Maximalt antal rader:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1114
+msgid "Border color:"
+msgstr "Ramfärg:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1137
+msgid "Default 'article'"
+msgstr "Standard 'artikel'"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1142
+msgid "Facebook administrators:"
+msgstr "Facebook administratörer:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1145
+msgid "Separate multiple administrators by a comma without spaces"
+msgstr "Separera flera administratörer med ett kommatecken utan mellanslag"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1156
+msgid "Miscelaneous settings"
+msgstr "Diverse inställningar"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1165
+msgid "Do not add video by default:"
+msgstr "Lägg inte till video som standard:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1183
+msgid "Show link to the added link on Facebook:"
+msgstr "Visa länk till den tillagda länken på Facebook:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1189
+msgid "Do not show social plugins in excerpts:"
+msgstr "Visa inte sociala plugins i utdrag:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1192
+msgid "For example like button"
+msgstr "Till exempel gilla knapp"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1210
+#: add-link-to-facebook-class.php:1189
+msgid "Extra URL parameter"
+msgstr "Extra URL-parametrar"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1215
+#: add-link-to-facebook-class.php:1190
+msgid "For example for Google Anaylytics"
+msgstr "Till exempel för Google Analytics"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1219
+msgid "Clear all error messages:"
+msgstr "Rensa alla felmeddelanden:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1242
+msgid "Facebook communication timeout:"
+msgstr "Facebook kommunikationstimeout:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1245
+msgid "Seconds"
+msgstr "Sekunder"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1246
+msgid "Default 15 seconds"
+msgstr "Standard 15 sekunder"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1283
+msgid "Hide post submit additions too:"
+msgstr "Göm även posta/ skickatillägg:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1289
+msgid "Required capability to view Facebook comments:"
+msgstr "Nödvändig funktion för att visa Facebook kommentarer:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1318
+msgid "Refresh Facebook comments for:"
+msgstr "Uppdatera Facebook kommentarer till:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1321
+msgid "Days"
+msgstr "dagar"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1322
+msgid "Default 7 days"
+msgstr "Standard 7 dagar"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1326
+msgid "Refresh Facebook comments in the background:"
+msgstr "Uppdatera Facebook kommentarer i bakgrunden:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1329
+msgid "Using Wordress cron"
+msgstr "Använd Wordpress cron"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1333
+msgid "Maximum text length with trailer:"
+msgstr "Maximal textlängd med släpande tecken:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1345
+msgid "Default 10,000 characters"
+msgstr "Standard 10000 tecken"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1349
+msgid "Maximum comment length with trailer:"
+msgstr "Maximal kommentarslängd med släpande tecken:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1357
+msgid "Do not add links for custom post types:"
+msgstr "Lägg inte till länkar för dessa anpassade inläggstyper:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1384
+msgid "Use category ID's"
+msgstr "Använd kategori IDen"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1391
+msgid "Exclude these tags:"
+msgstr "Uteslut dessa taggar:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1398
+msgid "Exclude these authors:"
+msgstr "Uteslut dessa författare:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1399
+msgid "Use login names"
+msgstr "Använd inloggningsnamn"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1406
+msgid "Add meta box for these custom post types:"
+msgstr "Lägg till meta box för dessa anpassade inläggstyper:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1420
+msgid "Use bundled CA certificates:"
+msgstr "Använd medföljande CA-certifikat:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1427
+msgid "Execute shortcodes in widgets:"
+msgstr "Kör kortkoder i widgets:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1433
+msgid "Do not execute shortcodes for texts:"
+msgstr "Starta inte kortkoder för texter:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1439
+msgid "Do not execute filters for texts:"
+msgstr "Starta inte filter för texter:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1445
+msgid "Do not execute filters for comments:"
+msgstr "Starta inte filter för kommentarer:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1451
+msgid "Use Heise social share privacy:"
+msgstr "Använd Heise sociala/dela integritet:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1457
+msgid "Heise privacy policy URL:"
+msgstr "URL för Heise sekretesspolicy:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1463
+msgid "Priority filter 'the_content':"
+msgstr "Prioritet filter 'the_content':"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1469
+msgid "No asynchronous Facebook script:"
+msgstr "Ingen asynkrona Facebook script:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1475
+msgid "Do not include Facebook script:"
+msgstr "Inkludera inte Facebook script:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1478
+msgid "In case of conflicts with other Facebook plugins"
+msgstr "I händelse av konflikt med andra Facebook tillägg"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1482
+msgid "Use links API instead of feed API:"
+msgstr "Använd länkarnas API istället för flödets API:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1485
+msgid "Doesn't work for groups!"
+msgstr "Fungerar inte för grupper!"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1489
+msgid "Do not refresh access token:"
+msgstr "Uppdatera inte åtkomsttoken:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1497
+msgid "Upgrade deactivates the plugin!"
+msgstr "Uppgradering deaktiverar tillägget!"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1504
+msgid "Additional styling rules (CSS):"
+msgstr "Ytterligare utseenderegler (CSS):"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1550
+msgid "Only for administrators"
+msgstr "Endast för administratörer"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1557
+msgid "No tab pages"
+msgstr "Inga flikar"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1604
+msgid "Pro version"
+msgstr "Pro version"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1653
+msgid "Please check if this is a correct, reachable e-mail address"
+msgstr "Vänligen kontrollera om detta är en korrekt, nåbar e-postadress"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1657
+msgid "Forum topic link:"
+msgstr "Rubriklänk till forum:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1660
+msgid "Mandatory"
+msgstr "Obligatorisk"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1667
+msgid "Please describe your problem, even if you did before"
+msgstr "Beskriv ditt problem, även om du gjorde det innan"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1671
+msgid "Did you check if your problem is described in <a href=\"[FAQ]\" target=\"_blank\">the FAQ</a> ?"
+msgstr "Kollade du om ditt problem är beskrivet i <a href=\"[FAQ]\" target=\"_blank\">FAQn</a>?"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-admin.php:1676
+msgid "Debug information not asked for or without valid support forum topic link will be ignored"
+msgstr "Felsökningsinformation inte begärt eller utan giltigt supportforum ämneslänk kommer att ignoreras"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:675
+msgid "Forum topic link is mandatory"
+msgstr "Rubriklänk till forum är obligatorisk"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:731
+msgid "should be authorized again to show Facebook messages in the widget"
+msgstr "bör tillåtas igen för att visa Facebook-meddelanden i widgeten"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:781
+msgid "Maximum number of sites exceeded"
+msgstr "Maximalt antal webbplatser överstegs"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:944
+msgid "Group"
+msgstr "Grupp"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:952
+msgid "Not logged in with Facebook (anymore)"
+msgstr "Inte inloggad med Facebook (längre)"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:958
+msgid "Do not add video to Facebook"
+msgstr "Lägg inte till video till Facebook"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:971
+msgid "Update existing Facebook link"
+msgstr "Uppdatera existerande Facebooklänk"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:973
+msgid "Comments and likes will be lost!"
+msgstr "Kommentarer och Gillar försvinner!"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:988
+msgid "Link on Facebook"
+msgstr "Länk på Facebook"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:995
+msgid "Due to limitations of Facebook not all links might work"
+msgstr "På grund av begränsningar i Facebook kommer evt inte alla länkar fungera"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:1182
+msgid "Custom text"
+msgstr "Anpassad text"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:1197
+msgid "Video URL"
+msgstr "Video URL"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:2227
+#: add-link-to-facebook-class.php:2241
+msgid "liked this post"
+msgid_plural "liked this post"
+msgstr[0] "gillar detta inlägg"
+msgstr[1] "gillar detta inlägg"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-class.php:2249
+msgid "Facebook ID"
+msgstr "Facebook ID"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-int.php:657
+msgid "Website"
+msgstr "Hemsida"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-int.php:1190
+msgid "Information"
+msgstr "Information"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-int.php:1376
+#: add-link-to-facebook-int.php:1540
+msgid "User registration disabled"
+msgstr "Användarregistrering inaktiverad"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-int.php:1393
+msgid "WordPress user name"
+msgstr "Wordpress användarnamn"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-int.php:1411
+#: add-link-to-facebook-int.php:1473
+msgid "Facebook App ID required"
+msgstr "Facebook App-ID krävs"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-int.php:1444
+msgid "Please enable third-party cookies"
+msgstr "Vänligen aktivera cookies från tredje part"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-int.php:1522
+msgid "Facebook registration failed"
+msgstr "Facebook registreringen misslyckades"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-int.php:1546
+msgid "Facebook e-mail address missing"
+msgstr "Facebook e-postadress saknas"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-int.php:1561
+#: add-link-to-facebook-int.php:1663
+msgid "User not found"
+msgstr "Användaren hittades inte"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-int.php:1600
+msgid "Could not verify Facebook registration"
+msgstr "Kunde inte verifiera Facebook registrering"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-int.php:1678
+#: add-link-to-facebook-int.php:1689
+msgid "Could not verify Facebook login"
+msgstr "Kunde inte verifiera Facebook login"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-widget.php:371
+msgid "Show Facebook comments"
+msgstr "Visa Facebook kommentarer"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-widget.php:373
+#: add-link-to-facebook-widget.php:382
+msgid "Maximum number:"
+msgstr "Högsta antal:"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-widget.php:376
+#: add-link-to-facebook-widget.php:389
+msgid "Appearance depends on your theme!"
+msgstr "Utseende beror på ditt tema!"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-widget.php:380
+msgid "Show Facebook messages"
+msgstr "Visa Facebook meddelanden"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-widget.php:387
+msgid "Show comments on messages"
+msgstr "Visa kommentarer på meddelanden"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-widget.php:397
+msgid "Show Facebook like box"
+msgstr "Visa Facebook gilla box"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-widget.php:405
+msgid "Show Facebook subscribe button"
+msgstr "Visa Facebook prenumerera knapp"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-widget.php:409
+msgid "Show Facebook comments plugin"
+msgstr "Visa Facebooks kommentarstillägg"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-widget.php:413
+msgid "Show Facebook face pile"
+msgstr "Visa Facebookbilder med ansikten"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-widget.php:421
+msgid "Show Facebook registration"
+msgstr "Visa Facebook registrering"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-widget.php:425
+msgid "Show Facebook login"
+msgstr "Visa Facebook inloggning"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-widget.php:429
+msgid "Show Facebook activity feed"
+msgstr "Visa Facebook aktivitetsflöde"
+
+# @ add-link-to-facebook
+#: add-link-to-facebook-widget.php:433
+msgid "Show everywhere using my settings"
+msgstr "Visa överallt med mina inställningar"
+

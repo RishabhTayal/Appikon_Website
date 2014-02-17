@@ -1,0 +1,58 @@
+<wpml-config>
+    <custom-fields>
+		<custom-field action="copy">usebuilder</custom-field>
+		<custom-field action="copy">elements</custom-field>
+		<custom-field action="translate">usebuilder</custom-field>
+		<custom-field action="translate">elements</custom-field>
+		<custom-field action="copy">parallax-status</custom-field>
+		<custom-field action="copy">parallax-type</custom-field>
+		<custom-field action="copy">parallax-img</custom-field>
+		<custom-field action="copy">parallax-height</custom-field>
+		<custom-field action="copy">quote-content</custom-field>
+		<custom-field action="copy">quote-author</custom-field>
+		<custom-field action="copy">twitter-acc</custom-field>
+		<custom-field action="copy">parallax_custom_content</custom-field>
+		<custom-field action="translate">parallax-status</custom-field>
+		<custom-field action="translate">parallax-type</custom-field>
+		<custom-field action="translate">parallax-img</custom-field>
+		<custom-field action="translate">parallax-height</custom-field>
+		<custom-field action="translate">quote-content</custom-field>
+		<custom-field action="translate">quote-author</custom-field>
+		<custom-field action="translate">twitter-acc</custom-field>
+		<custom-field action="translate">parallax_custom_content</custom-field>
+		<custom-field action="copy">type-portfolio</custom-field>
+		<custom-field action="copy">project-type</custom-field>
+		<custom-field action="copy">external-url</custom-field>
+		<custom-field action="copy">target</custom-field>
+		<custom-field action="copy">lightbox-image</custom-field>
+		<custom-field action="copy">vimeo-id</custom-field>
+		<custom-field action="copy">youtube-id</custom-field>
+		<custom-field action="copy">layout</custom-field>
+		<custom-field action="copy">related</custom-field>
+		<custom-field action="translate">project-type</custom-field>
+		<custom-field action="translate">external-url</custom-field>
+		<custom-field action="translate">target</custom-field>
+		<custom-field action="translate">lightbox-image</custom-field>
+		<custom-field action="translate">vimeo-id</custom-field>
+		<custom-field action="translate">youtube-id</custom-field>
+		<custom-field action="translate">layout</custom-field>
+		<custom-field action="translate">related</custom-field>
+    </custom-fields>
+    <custom-types>
+		<custom-type translate="1">xt_sliders</custom-type>
+		<custom-type translate="1">project</custom-type>
+		<custom-type translate="1">main-slide</custom-type>
+		<custom-type translate="1">optionsframework</custom-type>
+    </custom-types>    
+    <taxonomies>
+		<taxonomy translate="1">filter-portfolio</taxonomy>
+		<taxonomy translate="1">type-portfolio</taxonomy>
+    </taxonomies>
+    <admin-texts>
+		<key name="kutcher">
+			<key name="footer_copyright" />
+		</key>
+	</admin-texts> 
+</wpml-config>
+
+

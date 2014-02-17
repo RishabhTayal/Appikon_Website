@@ -1,0 +1,82 @@
+/*******************
+	XT Meta Box Shared Styles
+********************/
+	
+	#xt_single_project_options .inside, #xt_portfolio_dropdown .inside {
+		margin: 0;
+		padding: 0;
+		padding-bottom: 0px;
+	}
+
+	.xt-clear {
+		display: block;
+		clear: both;
+		margin: 0;
+		padding: 0;
+	}
+
+	/* Metabox Title */
+
+	.xt-title {
+		padding: 15px 10px;
+		background: #ccc;
+		margin-bottom: 10px;
+	}
+
+	.xt-title h2 {
+		font-size: 14px;
+		line-height: 20px;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+
+	/* Inputs */
+
+	.xt-input {
+		padding: 10px 10px;
+	}
+
+	.xt-input label {
+		display: block;
+		font-weight: bold;
+		margin-bottom: 5px;
+	}
+
+	.xt-input .xt-preview {
+		width: 100px;
+		height: 80px;
+		border: 1px dotted #ccc;
+		float: left;
+		margin-right: 15px;
+		background: #fff;
+	}
+
+	.xt-input .xt-preview img {
+		max-width: 100%;
+		width: 100px;
+		height: 80px;
+	}
+
+	.xt-input .xt-radio {
+		display: inline-block;
+		margin-right: 10px;
+	}
+
+	/* Single Project Options */
+
+	.single-project-options {
+		background: #eee;
+		padding: 25px 15px;
+	}
+
+	.project-layout-selector {
+		padding: 15px 0 25px;
+	}
+
+	.project-layout-selector input, .project-layout-selector img {
+		vertical-align: middle;
+	}
+
+	.project-layout-selector img {
+		margin-right: 15px;
+	}

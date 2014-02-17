@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version='1.1' width='13px' height='13px' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+	<g transform="translate(6.35,6.35)">
+		<path d="M 2 0 L 10.75 0 Q 12.75 0 12.75 2 L 12.75 10.75 Q 12.75 12.75 10.75 12.75 L 2 12.75 Q 0 12.75 0 10.75 L 0 2 Q 0 0 2 0 Z" transform="translate(-6.35,-6.35)" fill="#FF0000"/>
+	</g>
+</svg>

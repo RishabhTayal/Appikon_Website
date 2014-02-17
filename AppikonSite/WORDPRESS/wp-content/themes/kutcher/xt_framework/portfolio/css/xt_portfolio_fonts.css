@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'xt_portfolio_fonts';
+  src: url("../font/xt_portfolio_fonts.eot?32734738");
+  src: url("../font/xt_portfolio_fonts.eot?32734738#iefix") format('embedded-opentype'), url("../font/xt_portfolio_fonts.woff?32734738") format('woff'), url("../font/xt_portfolio_fonts.ttf?32734738") format('truetype'), url("../font/xt_portfolio_fonts.svg?32734738#xt_portfolio_fonts") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'xt_portfolio_fonts';
+    src: url('../font/xt_portfolio_fonts.svg?32734738#xt_portfolio_fonts') format('svg');
+  }
+}
+*/
+[class^="xt-portfolio-icon-"]:before,
+[class*=" xt-portfolio-icon-"]:before {
+  font-family: 'xt_portfolio_fonts';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  line-height: 1em;
+}
+
+.xt-portfolio-icon-plus-circle:before { content: '\2795'; } /* '➕' */
+.xt-portfolio-icon-picture:before { content: '🌄'; } /* '\1f304' */
+.xt-portfolio-icon-video:before { content: '🎬'; } /* '\1f3ac' */
