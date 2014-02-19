@@ -31,5 +31,6 @@ $(document).ready(function(){
 		$('.bg1').parallax("50%", 0.4);
 		$('.bg2').parallax("50%", 0.4);
 		$('.bg3').parallax("50%", 0.4);
+		$('.bg4').parallax("50%", 0.4);
 	}
 })
