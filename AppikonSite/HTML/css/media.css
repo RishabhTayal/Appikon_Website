@@ -87,7 +87,7 @@ Responsive elements
                 #parallax1 .vertical-text, #parallax2 .vertical-text,
                 #parallax3 .vertical-text, #parallax1 .pattern,
                 #parallax2 .pattern, #parallax3 .pattern
-                { height: 600px; }
+                { height: 400px; }
                 
                 #prevslide, #nextslide{ position:absolute; height:30px; width:30px; top:210px; margin-top:-21px; opacity:0.6; }
                 .bg1, .bg2, .bg3 { background-size: 100%; }
