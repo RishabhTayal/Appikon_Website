@@ -31,7 +31,8 @@
 					thumb_links				:	0,			// Individual thumb links for each slide
 					thumbnail_navigation    :   0,			// Thumbnail navigation
 					slides 					:  	[			// Slideshow Images
-														{image : './images/slider/image1.jpg', title : 'Mobile Development <div class="slidedescription">Your big ideas deserve equally exciting solutions. We work with multiple technologies to produce the most effective applications.</div>', thumb : '', url : 'http://themes.tvda.eu/'},
+														{image : './images/slider/image2.jpg', title : 'Mobile Development <div class="slidedescription">Your big ideas deserve equally exciting solutions. We work with multiple technologies to produce the most effective applications.</div>', thumb : '', url : 'http://themes.tvda.eu/'},
+// 														{image : './images/slider/image2.jpg', title : ''},
 														{image : './images/slider/image3.jpg', title : 'Mobile Design <div class="slidedescription">Our mobile user experience designers possess a deep background in mobile user experience, graphic arts and mobile information architecture. Their creativity is the springboard for all of our apps. Appikon\'s iterative, Agile approach allows for frequent design feedback ensuring your app not only solves the business need, but provides an artful extension of your brand.</div>', thumb : '', url : 'http://themes.tvda.eu/'},
 														{image : './images/slider/image4.jpg', title : 'Mobile Deployment <div class="slidedescription">We have an intense (some might say obsessive) focus on producing high-quality code, promising on-time delivery and long term sustainability. Our scalable, practical, and cost-effective solutions make Appikon the right choice for your business, today and tomorrow.</div>', thumb : '', url : 'http://themes.tvda.eu/'}  
 												],
