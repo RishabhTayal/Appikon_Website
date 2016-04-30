@@ -295,7 +295,7 @@ header .tagline {
   top: 0;
   left: 0;
   z-index: 0;
-  background-color: rgba(0, 0, 0, 0.55);
+  background-color: rgba(0, 0, 0, 0.80);
 }
 /*---------CONFIRMATION PAGE----------*/
 #confirmation {
