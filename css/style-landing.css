@@ -141,7 +141,7 @@ header .tagline {
 /*---------LANDING PAGE----------*/
 #landing {
   padding:65px 0 10px;
-  background: url(../images/contacts.jpg) no-repeat;
+  background: url(../images/slider/image1.jpg) no-repeat;
   background-size: cover;
 }
 @media screen and (min-width: 992px) {
