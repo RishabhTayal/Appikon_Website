@@ -35,7 +35,7 @@ const BannerSection = ({
         alt="Shopify"
         onClick={() => {
           window.open(
-            'https://apps.shopify.com/ios-android-app-maker-appit',
+            'https://apps.shopify.com/ios-android-app-maker-appit', //TODO: change this url
             '_blank'
           );
         }}
