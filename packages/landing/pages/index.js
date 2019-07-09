@@ -2,7 +2,6 @@ import { ResetCSS } from 'common/src/assets/css/style';
 import { AgencyWrapper, GlobalStyle } from 'common/src/containers/Agency/agency.style';
 import BannerSection from 'common/src/containers/Agency/BannerSection';
 import BlogSection from 'common/src/containers/Agency/BlogSection';
-import FaqSection from 'common/src/containers/Agency/FaqSection';
 import FeatureSection from 'common/src/containers/Agency/FeatureSection';
 import Footer from 'common/src/containers/Agency/Footer';
 import Navbar from 'common/src/containers/Agency/Navbar';
@@ -51,7 +50,7 @@ export default () => {
           {/* <VideoSection /> */}
           <TestimonialSection />
           {/* <TeamSection /> */}
-          <FaqSection />
+          {/* <FaqSection /> */}
           <NewsletterSection />
           <Footer />
         </AgencyWrapper>
