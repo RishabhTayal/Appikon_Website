@@ -1,5 +1,4 @@
 import { ResetCSS } from 'common/src/assets/css/style';
-import AboutUsSection from 'common/src/containers/Agency/AboutUsSection';
 import { AgencyWrapper, GlobalStyle } from 'common/src/containers/Agency/agency.style';
 import BannerSection from 'common/src/containers/Agency/BannerSection';
 import BlogSection from 'common/src/containers/Agency/BlogSection';
@@ -45,7 +44,7 @@ export default () => {
           </Sticky>
           <BannerSection />
           <FeatureSection />
-          <AboutUsSection />
+          {/* <AboutUsSection /> */}
           <WorkHistory />
           <BlogSection />
           <QualitySection />
