@@ -32,7 +32,7 @@ const Footer = ({
               logoStyle={logoStyle}
             />
             <Text content="Appikon Apps" {...textStyle} />
-            <Text content="+97 0267 5923" {...textStyle} />
+            {/* <Text content="+97 0267 5923" {...textStyle} /> */}
           </Box>
           {/* End of footer logo column */}
           <Box {...colTwo}>
