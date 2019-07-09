@@ -55,13 +55,13 @@ const BannerSection = ({
             <FeatureBlock
               title={
                 <Heading
-                  content="Shopify Apps to Grow Your Ecommerce Business"
+                  content="Shopify Apps to Grow Your Business"
                   {...title}
                 />
               }
               description={
                 <Text
-                  content="Agencies around the world are moving to the digital agencies. So, It is high time to introduce your agency digitaly ."
+                  content="Need extra functionality? You’ve got the will. We’ve got the way. Our Intelligent Shopify Apps are designed to help with marketing, conversions, sales, and more."
                   {...description}
                 />
               }
