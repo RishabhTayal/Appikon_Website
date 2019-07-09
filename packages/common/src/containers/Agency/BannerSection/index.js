@@ -8,6 +8,8 @@ import FeatureBlock from '../../../components/FeatureBlock';
 import Container from '../../../components/UI/Container';
 import Particles from '../../Agency/Particle';
 import BannerWrapper, { DiscountLabel } from './bannerSection.style';
+import ShopifyImage from '../../../assets/image/agency/Shopify-App-Store-Badge-Final-White.png';
+import Image from 'reusecore/src/elements/Image';
 
 const BannerSection = ({
   row,
@@ -21,12 +23,21 @@ const BannerSection = ({
 }) => {
   const ButtonGroup = () => (
     <Fragment>
-      <Button title="LEARN MORE" {...btnStyle} />
-      <Button
+      {/* <Button title="LEARN MORE" {...btnStyle} /> */}
+      {/* <Button
         title="WATCH WORKS"
         variant="textButton"
         icon={<i className="flaticon-next" />}
         {...outlineBtnStyle}
+      /> */}
+      <Image
+        src={ShopifyImage}
+        onClick={() => {
+          window.open(
+            'https://apps.shopify.com/ios-android-app-maker-appit',
+            '_blank'
+          );
+        }}
       />
     </Fragment>
   );
