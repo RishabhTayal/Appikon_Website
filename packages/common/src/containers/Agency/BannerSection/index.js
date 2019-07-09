@@ -1,15 +1,15 @@
 import PropTypes from 'prop-types';
 import React, { Fragment } from 'react';
 import Box from 'reusecore/src/elements/Box';
-import Button from 'reusecore/src/elements/Button';
 import Heading from 'reusecore/src/elements/Heading';
+import Image from 'reusecore/src/elements/Image';
 import Text from 'reusecore/src/elements/Text';
+
+import ShopifyImage from '../../../assets/image/agency/Shopify-App-Store-Badge-Final-White.png';
 import FeatureBlock from '../../../components/FeatureBlock';
 import Container from '../../../components/UI/Container';
 import Particles from '../../Agency/Particle';
 import BannerWrapper, { DiscountLabel } from './bannerSection.style';
-import ShopifyImage from '../../../assets/image/agency/Shopify-App-Store-Badge-Final-White.png';
-import Image from 'reusecore/src/elements/Image';
 
 const BannerSection = ({
   row,
@@ -32,6 +32,7 @@ const BannerSection = ({
       /> */}
       <Image
         src={ShopifyImage}
+        alt="Shopify"
         onClick={() => {
           window.open(
             'https://apps.shopify.com/ios-android-app-maker-appit',
