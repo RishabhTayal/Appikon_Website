@@ -215,3 +215,4 @@ pip-log.txt
 .mr.developer.cfg
 
 AppikonSite/HTML/images/.picasa.ini
+node_modules
