@@ -7,6 +7,8 @@ import Heading from 'reusecore/src/elements/Heading';
 import Image from 'reusecore/src/elements/Image';
 import Text from 'reusecore/src/elements/Text';
 
+import Pricing from '../../../assets/image/agency/group/undraw_discount_d4bd.png';
+import MobileImage from '../../../assets/image/agency/group/undraw_Mobile_application_mr4r.png';
 import GroupImage2 from '../../../assets/image/agency/group/undraw_revenue_3osh.png';
 import ShopifyAppStoreBadge from '../../../assets/image/agency/Shopify-App-Store-Badge-Final-White.png';
 import FeatureBlock from '../../../components/FeatureBlock';
@@ -23,7 +25,7 @@ const WorkHistory = ({ row, col, cardStyle, title, description, btnStyle }) => {
               {/* <CounterUpArea> */}
               <Card className="card" {...cardStyle}>
                 <Fade delay={90}>
-                  <Image src={GroupImage2} alt="Feature Image" />
+                  <Image src={MobileImage} alt="Feature Image" />
                 </Fade>
                 {/* <h3>
                     <CountUp start={0} end={20} />+
@@ -147,7 +149,7 @@ const WorkHistory = ({ row, col, cardStyle, title, description, btnStyle }) => {
               {/* <CounterUpArea> */}
               <Card className="card" {...cardStyle}>
                 <Fade delay={90}>
-                  <Image src={GroupImage2} alt="Feature Image" />
+                  <Image src={Pricing} alt="Feature Image" />
                 </Fade>
                 {/* <h3>
                     <CountUp start={0} end={20} />+
