@@ -8,9 +8,7 @@ import Heading from 'reusecore/src/elements/Heading';
 import Image from 'reusecore/src/elements/Image';
 import Text from 'reusecore/src/elements/Text';
 
-import GroupImage1 from '../../../assets/image/agency/group/group-image1.jpg';
-import GroupImage2 from '../../../assets/image/agency/group/group-image2.jpg';
-import GroupImage3 from '../../../assets/image/agency/group/group-image3.jpg';
+import GroupImage2 from '../../../assets/image/agency/group/undraw_revenue_3osh.png';
 import FeatureBlock from '../../../components/FeatureBlock';
 import data from '../../../data/Agency';
 import AboutUsSectionWrapper from './aboutUsSection.style';
@@ -25,56 +23,58 @@ const AboutUsSection = ({
   btnStyle
 }) => {
   return (
-    <AboutUsSectionWrapper id="AboutUsSection">
-      <Box className="row" {...row}>
-        <Box className="col" {...col}>
-          <Card className="group-gallery">
-            <Box className="col1">
-              <Fade top delay={30}>
+    <div>
+      <AboutUsSectionWrapper id="AboutUsSection">
+        <Box className="row" {...row}>
+          <Box className="col" {...col}>
+            <Card className="group-gallery">
+              <Box className="col1">
+                {/* <Fade top delay={30}>
                 <Image src={GroupImage1} alt="Feature Image" />
               </Fade>
               <Fade left delay={60}>
                 <Image src={GroupImage3} alt="Feature Image" />
-              </Fade>
-            </Box>
-            <Box className="col2">
-              <Fade bottom delay={90}>
-                <Image src={GroupImage2} alt="Feature Image" />
-              </Fade>
-            </Box>
-          </Card>
-        </Box>
-        <Box className="col" {...col}>
-          <Box {...textArea}>
-            <FeatureBlock
-              title={
-                <Heading
-                  content="Great Responsive & Strong Competitive People"
-                  {...title}
-                />
-              }
-              description={
-                <Text
-                  content="Some hardworking People are Working Day and Night to provide you highly scalable product . "
-                  {...description}
-                />
-              }
-            />
+              </Fade> */}
+              </Box>
+              <Box className="col2">
+                <Fade delay={90}>
+                  <Image src={GroupImage2} alt="Feature Image" />
+                </Fade>
+              </Box>
+            </Card>
           </Box>
-          <Box {...textArea}>
-            {data.aboutus.map((feature, index) => (
+          <Box className="col" {...col}>
+            <Box {...textArea}>
               <FeatureBlock
-                key={`feature_point-${index}`}
-                icon={<i className={feature.icon} />}
-                iconPosition="left"
-                title={<Heading content={feature.title} {...featureTitle} />}
+                title={
+                  <Heading
+                    content="Great Responsive & Strong Competitive People"
+                    {...title}
+                  />
+                }
+                description={
+                  <Text
+                    content="Some hardworking People are Working Day and Night to provide you highly scalable product . "
+                    {...description}
+                  />
+                }
               />
-            ))}
-            <Button title="DISCOVER ITEM" {...btnStyle} />
+            </Box>
+            <Box {...textArea}>
+              {data.aboutus.map((feature, index) => (
+                <FeatureBlock
+                  key={`feature_point-${index}`}
+                  icon={<i className={feature.icon} />}
+                  iconPosition="left"
+                  title={<Heading content={feature.title} {...featureTitle} />}
+                />
+              ))}
+              <Button title="DISCOVER ITEM" {...btnStyle} />
+            </Box>
           </Box>
         </Box>
-      </Box>
-    </AboutUsSectionWrapper>
+      </AboutUsSectionWrapper>
+    </div>
   );
 };
 
