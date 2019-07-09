@@ -98,16 +98,16 @@ const Navbar = ({ navbarStyle, logoStyle }) => {
           logoStyle={logoStyle}
         />
         <div style={{ display: 'flex', alignItems: 'center' }}>
-          <Button
+          {/* <Button
             variant="textButton"
             onClick={handleSearchModal}
             icon={<i className="flaticon-magnifying-glass" />}
-          />
-          <Button
+          /> */}
+          {/* <Button
             variant="textButton"
             onClick={handleLoginModal}
             icon={<i className="flaticon-user" />}
-          />
+          /> */}
           <Drawer
             width="420px"
             placement="right"
