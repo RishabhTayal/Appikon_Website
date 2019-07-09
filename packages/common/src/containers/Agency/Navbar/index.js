@@ -51,13 +51,13 @@ const Navbar = ({ navbarStyle, logoStyle }) => {
           width: '100%',
           height: '100%',
           x: 0,
-          y: 0,
-        },
+          y: 0
+        }
       },
       component: SearchPanel,
       componentProps: {},
       closeComponent: CloseModalButtonAlt,
-      closeOnClickOutside: false,
+      closeOnClickOutside: false
     });
   };
 
@@ -71,20 +71,20 @@ const Navbar = ({ navbarStyle, logoStyle }) => {
           width: '100%',
           height: '100%',
           x: 0,
-          y: 0,
-        },
+          y: 0
+        }
       },
       component: LoginModal,
       componentProps: {},
       closeComponent: CloseModalButton,
-      closeOnClickOutside: false,
+      closeOnClickOutside: false
     });
   };
 
   // Toggle drawer
   const toggleHandler = () => {
     dispatch({
-      type: 'TOGGLE',
+      type: 'TOGGLE'
     });
   };
 
@@ -94,7 +94,7 @@ const Navbar = ({ navbarStyle, logoStyle }) => {
         <Logo
           href="#"
           logoSrc={LogoImage}
-          title="Agency"
+          title="Appikon"
           logoStyle={logoStyle}
         />
         <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -131,19 +131,19 @@ const Navbar = ({ navbarStyle, logoStyle }) => {
 // Navbar style props
 Navbar.propTypes = {
   navbarStyle: PropTypes.object,
-  logoStyle: PropTypes.object,
+  logoStyle: PropTypes.object
 };
 
 Navbar.defaultProps = {
   // Default navbar style
   navbarStyle: {
-    minHeight: '70px',
+    minHeight: '70px'
   },
   // Default logo size
   logoStyle: {
     width: '128px',
-    height: 'auto',
-  },
+    height: 'auto'
+  }
 };
 
 export default Navbar;
