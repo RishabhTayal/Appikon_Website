@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
+import React, { Fragment } from 'react';
 import Box from 'reusecore/src/elements/Box';
-import Text from 'reusecore/src/elements/Text';
-import Heading from 'reusecore/src/elements/Heading';
 import Button from 'reusecore/src/elements/Button';
+import Heading from 'reusecore/src/elements/Heading';
+import Text from 'reusecore/src/elements/Text';
 import FeatureBlock from '../../../components/FeatureBlock';
 import Container from '../../../components/UI/Container';
 import Particles from '../../Agency/Particle';
@@ -17,7 +17,7 @@ const BannerSection = ({
   description,
   discountText,
   discountAmount,
-  outlineBtnStyle,
+  outlineBtnStyle
 }) => {
   const ButtonGroup = () => (
     <Fragment>
@@ -69,7 +69,7 @@ BannerSection.propTypes = {
   contentStyle: PropTypes.object,
   discountText: PropTypes.object,
   discountAmount: PropTypes.object,
-  outlineBtnStyle: PropTypes.object,
+  outlineBtnStyle: PropTypes.object
 };
 
 BannerSection.defaultProps = {
@@ -78,12 +78,12 @@ BannerSection.defaultProps = {
     flexWrap: 'wrap',
     ml: '-15px',
     mr: '-15px',
-    alignItems: 'center',
+    alignItems: 'center'
   },
   col: {
     pr: '15px',
     pl: '15px',
-    width: ['100%', '70%', '60%', '50%'],
+    width: ['100%', '70%', '60%', '50%']
   },
   title: {
     fontSize: ['26px', '34px', '42px', '55px'],
@@ -91,39 +91,39 @@ BannerSection.defaultProps = {
     color: '#0f2137',
     letterSpacing: '-0.025em',
     mb: ['20px', '25px'],
-    lineHeight: '1.31',
+    lineHeight: '1.31'
   },
   description: {
     fontSize: '16px',
     color: '#343d48cc',
     lineHeight: '2.1',
-    mb: '0',
+    mb: '0'
   },
   btnStyle: {
     minWidth: ['120px', '156px'],
     fontSize: '14px',
-    fontWeight: '500',
+    fontWeight: '500'
   },
   outlineBtnStyle: {
     minWidth: ['130px', '156px'],
     fontSize: '14px',
     fontWeight: '500',
     color: '#0f2137',
-    p: '5px 10px',
+    p: '5px 10px'
   },
   discountAmount: {
     fontSize: '14px',
     color: '#10AC84',
     mb: 0,
     as: 'span',
-    mr: '0.4em',
+    mr: '0.4em'
   },
   discountText: {
     fontSize: '14px',
     color: '#0f2137',
     mb: 0,
-    as: 'span',
-  },
+    as: 'span'
+  }
 };
 
 export default BannerSection;
