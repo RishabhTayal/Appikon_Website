@@ -1,16 +1,15 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import Link from 'next/link';
+import PropTypes from 'prop-types';
+import React from 'react';
 import Box from 'reusecore/src/elements/Box';
-import Text from 'reusecore/src/elements/Text';
 import Heading from 'reusecore/src/elements/Heading';
+import Text from 'reusecore/src/elements/Text';
 import Logo from 'reusecore/src/elements/UI/Logo';
-import Container from '../../../components/UI/Container';
-import FooterWrapper, { List, ListItem } from './footer.style';
 
 import LogoImage from '../../../assets/image/agency/logo.png';
-
+import Container from '../../../components/UI/Container';
 import data from '../../../data/Agency';
+import FooterWrapper, { List, ListItem } from './footer.style';
 
 const Footer = ({
   row,
