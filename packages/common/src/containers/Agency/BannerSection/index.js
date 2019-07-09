@@ -43,7 +43,7 @@ const BannerSection = ({
             <FeatureBlock
               title={
                 <Heading
-                  content="With Knowledge, Passion, Heart & Soul Agencies"
+                  content="Shopify Apps to Grow Your Ecommerce Business"
                   {...title}
                 />
               }
