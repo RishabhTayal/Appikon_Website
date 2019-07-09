@@ -1,22 +1,20 @@
-import React, { useContext } from 'react';
+import { closeModal, openModal } from '@redq/reuse-modal';
 import PropTypes from 'prop-types';
-import { openModal, closeModal } from '@redq/reuse-modal';
-import NavbarWrapper from 'reusecore/src/elements/Navbar';
-import Drawer from 'reusecore/src/elements/Drawer';
+import React, { useContext } from 'react';
 import Button from 'reusecore/src/elements/Button';
+import Drawer from 'reusecore/src/elements/Drawer';
+import NavbarWrapper from 'reusecore/src/elements/Navbar';
 import Logo from 'reusecore/src/elements/UI/Logo';
-import HamburgMenu from '../../../components/HamburgMenu';
-import ScrollSpyMenu from '../../../components/ScrollSpyMenu';
-import { Container } from './navbar.style';
-import SearchPanel from '../SearchPanel';
-import LoginModal from '../LoginModal';
-import CopyrightSection from '../CopyrightsSection';
 
 import LogoImage from '../../../assets/image/agency/logo.png';
-
+import HamburgMenu from '../../../components/HamburgMenu';
+import ScrollSpyMenu from '../../../components/ScrollSpyMenu';
 import { DrawerContext } from '../../../contexts/DrawerContext';
-
 import data from '../../../data/Agency/';
+import CopyrightSection from '../CopyrightsSection';
+import LoginModal from '../LoginModal';
+import SearchPanel from '../SearchPanel';
+import { Container } from './navbar.style';
 
 // Default close button for modal
 const CloseModalButton = () => (
