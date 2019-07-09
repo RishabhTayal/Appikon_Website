@@ -1,9 +1,6 @@
 import { ResetCSS } from 'common/src/assets/css/style';
 import AboutUsSection from 'common/src/containers/Agency/AboutUsSection';
-import {
-  AgencyWrapper,
-  GlobalStyle
-} from 'common/src/containers/Agency/agency.style';
+import { AgencyWrapper, GlobalStyle } from 'common/src/containers/Agency/agency.style';
 import BannerSection from 'common/src/containers/Agency/BannerSection';
 import BlogSection from 'common/src/containers/Agency/BlogSection';
 import FaqSection from 'common/src/containers/Agency/FaqSection';
@@ -12,9 +9,7 @@ import Footer from 'common/src/containers/Agency/Footer';
 import Navbar from 'common/src/containers/Agency/Navbar';
 import NewsletterSection from 'common/src/containers/Agency/NewsletterSection';
 import QualitySection from 'common/src/containers/Agency/QualitySection';
-import TeamSection from 'common/src/containers/Agency/TeamSection';
 import TestimonialSection from 'common/src/containers/Agency/TestimonialSection';
-import VideoSection from 'common/src/containers/Agency/VideoSection';
 import WorkHistory from 'common/src/containers/Agency/WorkHistory';
 import { DrawerProvider } from 'common/src/contexts/DrawerContext';
 import { agencyTheme } from 'common/src/theme/agency';
@@ -56,7 +51,7 @@ export default () => {
           <QualitySection />
           {/* <VideoSection /> */}
           <TestimonialSection />
-          <TeamSection />
+          {/* <TeamSection /> */}
           <FaqSection />
           <NewsletterSection />
           <Footer />
