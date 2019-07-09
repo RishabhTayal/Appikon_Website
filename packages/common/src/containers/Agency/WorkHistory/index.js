@@ -2,13 +2,13 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Box from 'reusecore/src/elements/Box';
-import Button from 'reusecore/src/elements/Button';
 import Card from 'reusecore/src/elements/Card';
 import Heading from 'reusecore/src/elements/Heading';
 import Image from 'reusecore/src/elements/Image';
 import Text from 'reusecore/src/elements/Text';
 
 import GroupImage2 from '../../../assets/image/agency/group/undraw_revenue_3osh.png';
+import ShopifyAppStoreBadge from '../../../assets/image/agency/Shopify-App-Store-Badge-Final-White.png';
 import FeatureBlock from '../../../components/FeatureBlock';
 import Container from '../../../components/UI/Container';
 import WorkHistoryWrapper from './workHistory.style';
@@ -33,7 +33,18 @@ const WorkHistory = ({ row, col, cardStyle, title, description, btnStyle }) => {
                     {...description}
                   />
                 }
-                button={<Button title="WORK HISTORY" {...btnStyle} />}
+                button={
+                  // <Button title="WORK HISTORY" {...btnStyle} />
+                  <Image
+                    src={ShopifyAppStoreBadge}
+                    onClick={() => {
+                      window.open(
+                        'https://apps.shopify.com/ios-android-app-maker-appit', //TODO: change this url
+                        '_blank'
+                      );
+                    }}
+                  />
+                }
               />
             </Box>
             <Box className="col" {...col}>
@@ -120,7 +131,18 @@ const WorkHistory = ({ row, col, cardStyle, title, description, btnStyle }) => {
                     {...description}
                   />
                 }
-                button={<Button title="WORK HISTORY" {...btnStyle} />}
+                button={
+                  // <Button title="WORK HISTORY" {...btnStyle} />
+                  <Image
+                    src={ShopifyAppStoreBadge}
+                    onClick={() => {
+                      window.open(
+                        'https://apps.shopify.com/ios-android-app-maker-appit', //TODO: change this url
+                        '_blank'
+                      );
+                    }}
+                  />
+                }
               />
             </Box>
           </Box>
