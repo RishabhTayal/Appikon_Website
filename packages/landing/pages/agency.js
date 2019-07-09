@@ -1,9 +1,6 @@
 import { ResetCSS } from 'common/src/assets/css/style';
 import AboutUsSection from 'common/src/containers/Agency/AboutUsSection';
-import {
-  AgencyWrapper,
-  GlobalStyle
-} from 'common/src/containers/Agency/agency.style';
+import { AgencyWrapper, GlobalStyle } from 'common/src/containers/Agency/agency.style';
 import BannerSection from 'common/src/containers/Agency/BannerSection';
 import BlogSection from 'common/src/containers/Agency/BlogSection';
 import FaqSection from 'common/src/containers/Agency/FaqSection';
