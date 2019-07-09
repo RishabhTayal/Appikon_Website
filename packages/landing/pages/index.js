@@ -54,7 +54,7 @@ export default () => {
           <WorkHistory />
           <BlogSection />
           <QualitySection />
-          <VideoSection />
+          {/* <VideoSection /> */}
           <TestimonialSection />
           <TeamSection />
           <FaqSection />
