@@ -18,7 +18,11 @@ const CopyrightSection = () => {
           </li>
         ))}
       </ul>
-      <Text content="Copyright 2019 Appikon Software Pvt Ltd" />
+      <Text
+        content={
+          'Copyright ' + new Date().getFullYear() + ' Appikon Software Pvt Ltd'
+        }
+      />
     </CopyrightWrapper>
   );
 };
