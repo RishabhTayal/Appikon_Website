@@ -19,7 +19,7 @@ const Footer = ({
   colTwo,
   titleStyle,
   logoStyle,
-  textStyle,
+  textStyle
 }) => {
   return (
     <FooterWrapper id="footerSection">
@@ -29,10 +29,10 @@ const Footer = ({
             <Logo
               href="#"
               logoSrc={LogoImage}
-              title="Agency"
+              title="Appikon"
               logoStyle={logoStyle}
             />
-            <Text content="redQ.Inc" {...textStyle} />
+            <Text content="Appikon Apps" {...textStyle} />
             <Text content="+97 0267 5923" {...textStyle} />
           </Box>
           {/* End of footer logo column */}
@@ -67,7 +67,7 @@ Footer.propTypes = {
   colTwo: PropTypes.object,
   titleStyle: PropTypes.object,
   textStyle: PropTypes.object,
-  logoStyle: PropTypes.object,
+  logoStyle: PropTypes.object
 };
 
 // Footer default style
@@ -77,7 +77,7 @@ Footer.defaultProps = {
     flexBox: true,
     flexWrap: 'wrap',
     ml: '-4px',
-    mr: '-4px',
+    mr: '-4px'
   },
   // Footer col one style
   colOne: {
@@ -85,38 +85,38 @@ Footer.defaultProps = {
     mt: [0, '13px'],
     mb: ['30px', 0],
     pl: ['15px', 0],
-    pr: ['15px', '15px', 0],
+    pr: ['15px', '15px', 0]
   },
   // Footer col two style
   colTwo: {
     width: ['100%', '70%', '65%', '77%'],
     flexBox: true,
-    flexWrap: 'wrap',
+    flexWrap: 'wrap'
   },
   // Footer col default style
   col: {
     width: ['100%', '50%', '50%', '25%'],
     pl: '15px',
     pr: '15px',
-    mb: '30px',
+    mb: '30px'
   },
   // widget title default style
   titleStyle: {
     color: '#343d48',
     fontSize: '16px',
-    fontWeight: '700',
+    fontWeight: '700'
   },
   // Default logo size
   logoStyle: {
     width: '128px',
-    mb: '15px',
+    mb: '15px'
   },
   // widget text default style
   textStyle: {
     color: '#0f2137',
     fontSize: '16px',
-    mb: '10px',
-  },
+    mb: '10px'
+  }
 };
 
 export default Footer;

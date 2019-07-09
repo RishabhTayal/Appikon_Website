@@ -19,9 +19,7 @@ const CopyrightSection = () => {
         ))}
       </ul>
       <Text
-        content={
-          'Copyright ' + new Date().getFullYear() + ' Appikon Software Pvt Ltd'
-        }
+        content={'Copyright ' + new Date().getFullYear() + ' Appikon Apps'}
       />
     </CopyrightWrapper>
   );
