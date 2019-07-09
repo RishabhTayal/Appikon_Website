@@ -29,7 +29,7 @@ export default () => {
       <Fragment>
         {/* Start agency head section */}
         <Head>
-          <title>Agency | A react next landing page</title>
+          <title>Appikon | Shopify apps to grow your business</title>
           <meta name="theme-color" content="#10ac84" />
           <meta name="Description" content="React next landing page" />
           {/* Load google fonts */}
