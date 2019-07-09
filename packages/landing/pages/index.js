@@ -6,7 +6,7 @@ import { agencyTheme } from 'common/src/theme/agency';
 import { ResetCSS } from 'common/src/assets/css/style';
 import {
   GlobalStyle,
-  AgencyWrapper,
+  AgencyWrapper
 } from 'common/src/containers/Agency/agency.style';
 import Navbar from 'common/src/containers/Agency/Navbar';
 import BannerSection from 'common/src/containers/Agency/BannerSection';
@@ -22,6 +22,7 @@ import QualitySection from 'common/src/containers/Agency/QualitySection';
 import Footer from 'common/src/containers/Agency/Footer';
 import { DrawerProvider } from 'common/src/contexts/DrawerContext';
 import FaqSection from 'common/src/containers/Agency/FaqSection';
+
 export default () => {
   return (
     <ThemeProvider theme={agencyTheme}>
