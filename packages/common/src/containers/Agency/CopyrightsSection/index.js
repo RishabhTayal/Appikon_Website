@@ -18,7 +18,7 @@ const CopyrightSection = () => {
           </li>
         ))}
       </ul>
-      <Text content="Copyrights 2019 @RedQ Inc" />
+      <Text content="Copyright 2019 Appikon Software Pvt Ltd" />
     </CopyrightWrapper>
   );
 };
