@@ -22,14 +22,11 @@ const WorkHistory = ({ row, col, cardStyle, title, description, btnStyle }) => {
             <Box className="col" {...col}>
               <FeatureBlock
                 title={
-                  <Heading
-                    content="Working With Knowledge, Passion, Heart & Soul "
-                    {...title}
-                  />
+                  <Heading content="Out of Stock Notifications" {...title} />
                 }
                 description={
                   <Text
-                    content="We have worked with some leading agencies around the globe and their appreciation is our main strength ."
+                    content="Notify your customers when the products are back in stock."
                     {...description}
                   />
                 }
@@ -120,17 +117,9 @@ const WorkHistory = ({ row, col, cardStyle, title, description, btnStyle }) => {
             <Box className="col" {...col}>
               <FeatureBlock
                 title={
-                  <Heading
-                    content="Working With Knowledge, Passion, Heart & Soul "
-                    {...title}
-                  />
+                  <Heading content="Custom Pricing (Wholesale)" {...title} />
                 }
-                description={
-                  <Text
-                    content="We have worked with some leading agencies around the globe and their appreciation is our main strength ."
-                    {...description}
-                  />
-                }
+                description={<Text content="Custom Pricing" {...description} />}
                 button={
                   // <Button title="WORK HISTORY" {...btnStyle} />
                   <Image
