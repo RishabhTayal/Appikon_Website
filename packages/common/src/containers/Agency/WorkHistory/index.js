@@ -20,6 +20,67 @@ const WorkHistory = ({ row, col, cardStyle, title, description, btnStyle }) => {
         <Container>
           <Box className="row" {...row}>
             <Box className="col" {...col}>
+              {/* <CounterUpArea> */}
+              <Card className="card" {...cardStyle}>
+                <Fade delay={90}>
+                  <Image src={GroupImage2} alt="Feature Image" />
+                </Fade>
+                {/* <h3>
+                    <CountUp start={0} end={20} />+
+                  </h3>
+                  <Text content="Companies Engaged" /> */}
+              </Card>
+              {/* <Card className="card" {...cardStyle}>
+                  <h3>
+                    <CountUp start={0} end={199} duration={5} />
+                  </h3>
+                  <Text content="Happy Customers" />
+                </Card>
+                <Card className="card" {...cardStyle}>
+                  <h3>
+                    <CountUp start={0} end={300} duration={5} />+
+                  </h3>
+                  <Text content="Project Complete" />
+                </Card>
+                <Card className="card" {...cardStyle}>
+                  <Text content="& Much More" />
+                  <Link href="#1">
+                    <a>View work history</a>
+                  </Link>
+                </Card> */}
+              {/* </CounterUpArea> */}
+            </Box>
+
+            <Box className="col" {...col}>
+              <FeatureBlock
+                title={
+                  <Heading content="Create Mobile App for Store" {...title} />
+                }
+                description={
+                  <Text content="Create native mobile app" {...description} />
+                }
+                button={
+                  // <Button title="WORK HISTORY" {...btnStyle} />
+                  <Image
+                    src={ShopifyAppStoreBadge}
+                    onClick={() => {
+                      window.open(
+                        'https://apps.shopify.com/ios-android-app-maker-appit', //TODO: change this url
+                        '_blank'
+                      );
+                    }}
+                  />
+                }
+              />
+            </Box>
+          </Box>
+        </Container>
+      </WorkHistoryWrapper>
+
+      <WorkHistoryWrapper id="workHistorySection">
+        <Container>
+          <Box className="row" {...row}>
+            <Box className="col" {...col}>
               <FeatureBlock
                 title={
                   <Heading content="Out of Stock Notifications" {...title} />
