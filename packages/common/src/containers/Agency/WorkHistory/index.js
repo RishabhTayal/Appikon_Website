@@ -1,19 +1,19 @@
-import PropTypes from 'prop-types';
-import React from 'react';
-import Fade from 'react-reveal/Fade';
-import Box from 'reusecore/src/elements/Box';
-import Card from 'reusecore/src/elements/Card';
-import Heading from 'reusecore/src/elements/Heading';
-import Image from 'reusecore/src/elements/Image';
-import Text from 'reusecore/src/elements/Text';
+import PropTypes from "prop-types";
+import React from "react";
+import Fade from "react-reveal/Fade";
+import Box from "reusecore/src/elements/Box";
+import Card from "reusecore/src/elements/Card";
+import Heading from "reusecore/src/elements/Heading";
+import Image from "reusecore/src/elements/Image";
+import Text from "reusecore/src/elements/Text";
 
-import Pricing from '../../../assets/image/agency/group/undraw_discount_d4bd.png';
-import MobileImage from '../../../assets/image/agency/group/undraw_Mobile_application_mr4r.png';
-import GroupImage2 from '../../../assets/image/agency/group/undraw_revenue_3osh.png';
-import ShopifyAppStoreBadge from '../../../assets/image/agency/Shopify-App-Store-Badge-Final-White.png';
-import FeatureBlock from '../../../components/FeatureBlock';
-import Container from '../../../components/UI/Container';
-import WorkHistoryWrapper from './workHistory.style';
+import Pricing from "../../../assets/image/agency/group/undraw_discount_d4bd.png";
+import MobileImage from "../../../assets/image/agency/group/undraw_Mobile_application_mr4r.png";
+import GroupImage2 from "../../../assets/image/agency/group/undraw_revenue_3osh.png";
+import ShopifyAppStoreBadge from "../../../assets/image/agency/Shopify-App-Store-Badge-Final-White.png";
+import FeatureBlock from "../../../components/FeatureBlock";
+import Container from "../../../components/UI/Container";
+import WorkHistoryWrapper from "./workHistory.style";
 
 const WorkHistory = ({ row, col, cardStyle, title, description, btnStyle }) => {
   return (
@@ -67,8 +67,8 @@ const WorkHistory = ({ row, col, cardStyle, title, description, btnStyle }) => {
                     src={ShopifyAppStoreBadge}
                     onClick={() => {
                       window.open(
-                        'https://apps.shopify.com/ios-android-app-maker-appit', //TODO: change this url
-                        '_blank'
+                        "https://apps.shopify.com/ios-android-app-maker-appit", //TODO: change this url
+                        "_blank"
                       );
                     }}
                   />
@@ -99,8 +99,8 @@ const WorkHistory = ({ row, col, cardStyle, title, description, btnStyle }) => {
                     src={ShopifyAppStoreBadge}
                     onClick={() => {
                       window.open(
-                        'https://apps.shopify.com/ios-android-app-maker-appit', //TODO: change this url
-                        '_blank'
+                        "https://apps.shopify.com/customer-back-in-stock-alert-user-notification-app",
+                        "_blank"
                       );
                     }}
                   />
@@ -189,8 +189,8 @@ const WorkHistory = ({ row, col, cardStyle, title, description, btnStyle }) => {
                     src={ShopifyAppStoreBadge}
                     onClick={() => {
                       window.open(
-                        'https://apps.shopify.com/ios-android-app-maker-appit', //TODO: change this url
-                        '_blank'
+                        "https://apps.shopify.com/custom-pricing-discounts-by-appikon",
+                        "_blank"
                       );
                     }}
                   />
@@ -219,45 +219,45 @@ WorkHistory.defaultProps = {
   // WorkHistory section row default style
   row: {
     flexBox: true,
-    flexWrap: 'wrap',
-    ml: '-15px',
-    mr: '-15px'
+    flexWrap: "wrap",
+    ml: "-15px",
+    mr: "-15px"
   },
   // WorkHistory section col default style
   col: {
-    pr: '15px',
-    pl: '15px',
+    pr: "15px",
+    pl: "15px",
     width: [1, 1, 1 / 2, 1 / 2],
     flexBox: true,
-    alignSelf: 'center'
+    alignSelf: "center"
   },
   // Card default style
   cardStyle: {
-    p: ['20px 20px', '30px 20px', '30px 20px', '53px 40px'],
-    borderRadius: '10px',
-    boxShadow: '0px 8px 20px 0px rgba(16, 66, 97, 0.07)'
+    p: ["20px 20px", "30px 20px", "30px 20px", "53px 40px"],
+    borderRadius: "10px",
+    boxShadow: "0px 8px 20px 0px rgba(16, 66, 97, 0.07)"
   },
   // WorkHistory section title default style
   title: {
-    fontSize: ['26px', '26px', '30px', '40px'],
-    lineHeight: '1.5',
-    fontWeight: '300',
-    color: '#0f2137',
-    letterSpacing: '-0.025em',
-    mb: '20px'
+    fontSize: ["26px", "26px", "30px", "40px"],
+    lineHeight: "1.5",
+    fontWeight: "300",
+    color: "#0f2137",
+    letterSpacing: "-0.025em",
+    mb: "20px"
   },
   // WorkHistory section description default style
   description: {
-    fontSize: '16px',
-    color: '#343d48cc',
-    lineHeight: '1.75',
-    mb: '33px'
+    fontSize: "16px",
+    color: "#343d48cc",
+    lineHeight: "1.75",
+    mb: "33px"
   },
   // Button default style
   btnStyle: {
-    minWidth: '156px',
-    fontSize: '14px',
-    fontWeight: '500'
+    minWidth: "156px",
+    fontSize: "14px",
+    fontWeight: "500"
   }
 };
 

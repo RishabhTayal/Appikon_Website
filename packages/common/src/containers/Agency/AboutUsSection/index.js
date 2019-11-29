@@ -1,17 +1,17 @@
-import PropTypes from 'prop-types';
-import React from 'react';
-import Fade from 'react-reveal/Fade';
-import Box from 'reusecore/src/elements/Box';
-import Card from 'reusecore/src/elements/Card';
-import Heading from 'reusecore/src/elements/Heading';
-import Image from 'reusecore/src/elements/Image';
-import Text from 'reusecore/src/elements/Text';
+import PropTypes from "prop-types";
+import React from "react";
+import Fade from "react-reveal/Fade";
+import Box from "reusecore/src/elements/Box";
+import Card from "reusecore/src/elements/Card";
+import Heading from "reusecore/src/elements/Heading";
+import Image from "reusecore/src/elements/Image";
+import Text from "reusecore/src/elements/Text";
 
-import GroupImage2 from '../../../assets/image/agency/group/undraw_revenue_3osh.png';
-import ShopifyAppStoreBadge from '../../../assets/image/agency/Shopify-App-Store-Badge-Final-White.png';
-import FeatureBlock from '../../../components/FeatureBlock';
-import data from '../../../data/Agency';
-import AboutUsSectionWrapper from './aboutUsSection.style';
+import GroupImage2 from "../../../assets/image/agency/group/undraw_revenue_3osh.png";
+import ShopifyAppStoreBadge from "../../../assets/image/agency/Shopify-App-Store-Badge-Final-White.png";
+import FeatureBlock from "../../../components/FeatureBlock";
+import data from "../../../data/Agency";
+import AboutUsSectionWrapper from "./aboutUsSection.style";
 
 const AboutUsSection = ({
   row,
@@ -71,8 +71,8 @@ const AboutUsSection = ({
                 src={ShopifyAppStoreBadge}
                 onClick={() => {
                   window.open(
-                    'https://apps.shopify.com/ios-android-app-maker-appit', //TODO: change this url
-                    '_blank'
+                    "https://apps.shopify.com/customer-back-in-stock-alert-user-notification-app",
+                    "_blank"
                   );
                 }}
               />
@@ -97,48 +97,48 @@ AboutUsSection.defaultProps = {
   // About us section row default style
   row: {
     flexBox: true,
-    flexWrap: 'wrap'
+    flexWrap: "wrap"
   },
   // About us section col default style
   col: {
-    width: [1, '100%', '50%']
+    width: [1, "100%", "50%"]
   },
   // About us section text area default style
   textArea: {
-    maxWidth: '490px',
-    pl: '40px'
+    maxWidth: "490px",
+    pl: "40px"
   },
   // About us section title default style
   title: {
-    fontSize: ['26px', '26px', '30px', '40px'],
-    lineHeight: '1.5',
-    fontWeight: '300',
-    color: '#0f2137',
-    letterSpacing: '-0.025em',
-    mb: '30px'
+    fontSize: ["26px", "26px", "30px", "40px"],
+    lineHeight: "1.5",
+    fontWeight: "300",
+    color: "#0f2137",
+    letterSpacing: "-0.025em",
+    mb: "30px"
   },
   // About us section description default style
   description: {
-    fontSize: '16px',
-    color: '#343d48cc',
-    lineHeight: '1.75',
-    mb: '33px'
+    fontSize: "16px",
+    color: "#343d48cc",
+    lineHeight: "1.75",
+    mb: "33px"
   },
 
   // feature title default style
   featureTitle: {
-    fontSize: '16px',
-    fontWeight: '400',
-    color: '#343d48',
-    lineHeight: '1.5',
-    mb: '8px',
-    letterSpacing: '-0.020em'
+    fontSize: "16px",
+    fontWeight: "400",
+    color: "#343d48",
+    lineHeight: "1.5",
+    mb: "8px",
+    letterSpacing: "-0.020em"
   },
   // Button default style
   btnStyle: {
-    minWidth: '156px',
-    fontSize: '14px',
-    fontWeight: '500'
+    minWidth: "156px",
+    fontSize: "14px",
+    fontWeight: "500"
   }
 };
 
